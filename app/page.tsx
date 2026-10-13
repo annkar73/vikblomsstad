@@ -178,38 +178,47 @@ export default function Home() {
             <div className="photo-decoration" aria-hidden="true"></div>
           </div>
         </div>
+          <div className="container trust-grid">
+    <article>
+      <span aria-hidden="true">%</span>
+      <div>
+        <h3>RUT-avdrag på fakturan</h3>
+        <p>Du kan få upp till 50 % av arbetskostnaden i RUT-avdrag. Vi drar av det direkt på fakturan.</p>
+      </div>
+    </article>
 
+    <article>
+      <span aria-hidden="true">✓</span>
+      <div>
+        <h3>Nöjd kund-garanti 24 h</h3>
+        <p>Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
+      </div>
+    </article>
+
+    <article>
+      <span aria-hidden="true">✳</span>
+      <div>
+        <h3>Allt material ingår</h3>
+        <p>Vi har med oss städmaterial, dammsugare och ångmaskin vid behov.</p>
+      </div>
+    </article>
+
+    <article>
+      <span aria-hidden="true">⌖</span>
+      <div>
+        <h3>Lokalt i Roslagen</h3>
+        <p>Hallstavik, Älmsta, Väddö, Grisslehamn, Singö och Skebobruk.</p>
+      </div>
+    </article>
+  </div>
+<br></br>
         <div className="hero-bottom container">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
           <a href="#trygghet" aria-label="Läs om våra fördelar">↓</a>
         </div>
+
       </section>
 
-      <section className="trust-section" id="trygghet">
-        <div className="container trust-grid">
-          <article>
-            <span aria-hidden="true">✓</span>
-            <div>
-              <h3>Nöjd kund-garanti</h3>
-              <p>Kontakta oss inom 24 timmar om du inte är nöjd.</p>
-            </div>
-          </article>
-          <article>
-            <span aria-hidden="true">✳</span>
-            <div>
-              <h3>Städmaterial ingår</h3>
-              <p>Vi tar med det städmaterial som behövs.</p>
-            </div>
-          </article>
-          <article>
-            <span aria-hidden="true">♡</span>
-            <div>
-              <h3>Personlig service</h3>
-              <p>Vi planerar uppdraget tillsammans med dig.</p>
-            </div>
-          </article>
-        </div>
-      </section>
 
       <section className="services section" id="tjanster">
         <div className="container">
