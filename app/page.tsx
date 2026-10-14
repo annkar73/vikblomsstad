@@ -346,6 +346,28 @@ export default function Home() {
           375 <span>kr/timme</span>
         </p>
       </article>  
+      
+
+
+
+<article className="price-card price-card-highlight window-price-card">
+  <span className="eyebrow">FÖNSTERPUTS</span>
+
+  <div className="window-price-row">
+    <span>Normalstora fönster</span>
+    <p className="price-amount">
+      60<span>kr/fönster</span>
+    </p>
+  </div>
+
+  <div className="window-price-row">
+    <span>Stora fönster</span>
+    <p className="price-amount">
+      120<span>kr/fönster</span>
+    </p>
+  </div>
+</article>
+
     </div>
     <div className="price-info">Priserna gäller inklusive moms och efter RUT-avdrag. Flyttstädning offereras alltid till fast pris.</div>
   </div>

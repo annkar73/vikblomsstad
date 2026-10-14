@@ -944,6 +944,28 @@ p {
   color: var(--light-pink);
   font-size: 16px;
 }
+.price-card.window-price-card {
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.price-card .window-price-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.price-card .window-price-row > span {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.price-card .window-price-row .price-amount {
+  margin: 0;
+  white-space: nowrap;
+}
 
 .rut-panel {
   display: flex;
