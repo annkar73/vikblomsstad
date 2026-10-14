@@ -30,8 +30,8 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="footer-column">
-        <h2>Tjänster</h2>
+      <div className="footer-column footer-services">
+        <h2><strong>Tjänster</strong></h2>
         <ul>
           <li><a href="#tjanster">Hemstädning</a></li>
           <li><a href="#tjanster">Storstädning</a></li>
@@ -43,8 +43,8 @@ export default function Footer() {
         </ul>
       </div>
 
-      <div className="footer-column">
-        <h2>Företaget</h2>
+      <div className="footer-column footer-company">
+        <h2><strong>Företaget</strong></h2>
         <ul>
           <li><a href="#om-oss">Om oss</a></li>
           <li><a href="#galleri">Galleri</a></li>
@@ -56,12 +56,12 @@ export default function Footer() {
       </div>
 
       <div className="footer-column footer-contact-info">
-        <h2>Kontakt</h2>
+        <h2><strong>Kontakt</strong></h2>
         <ul>
           <li><a href="tel:+46736325235">073-632 52 35</a></li>
           <li>
             <a href="mailto:emelie.vikblom@vikblomstad.se">
-              emelie.vikblom@vikblomstad.se
+              emelie.vikblom@gmail.com
             </a>
           </li>
           <li>

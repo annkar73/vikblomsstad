@@ -1068,7 +1068,7 @@ a {
 }
 
 /* ========================================
-   KONTAKT
+   CONTACT
    ======================================== */
 
 .contact {
@@ -1143,7 +1143,7 @@ a {
 
 .footer-main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 25px;
   padding-bottom: 40px;
@@ -1160,8 +1160,13 @@ a {
 .footer-main > p {
   color: #eadce7;
   font-family: var(--font-quicksand), sans-serif;
-  font-size: 17px;
   font-style: italic;
+}
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 17px;
 }
 .footer-logo {
   display: block;
@@ -1175,8 +1180,7 @@ a {
   display: inline-flex;
   gap: 12px;
   color: white;
-  font-size: 12px;
-  font-weight: 700;
+  font-weight: 900;
 }
 
 .footer-description {
@@ -1189,35 +1193,23 @@ a {
   margin: 4px 0;
 }
 
-.footer-contact-info {
+
+.footer-contact-info,
+.footer-services,
+.footer-company {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 9px;
   max-width: 300px;
-  color: #eadce7;
-  font-size: 11px;
+  color: var(--white);
   line-height: 1.7;
 }
-
 .footer-contact-info a {
   overflow-wrap: anywhere;
   transition: color 180ms ease;
 }
 
-.footer-contact-info a:hover {
-  color: #ff9fcf;
-}
-
-.footer-company {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px 25px;
-  padding: 20px 0;
-  border-top: 1px solid rgb(255 255 255 / 15%);
-  color: #d5bdce;
-  font-size: 10px;
-}
 
 .footer-bottom {
   display: flex;
@@ -1225,8 +1217,8 @@ a {
   gap: 20px;
   padding-top: 20px;
   border-top: 1px solid rgb(255 255 255 / 15%);
-  color: #d5bdce;
-  font-size: 10px;
+  color: var(--white);
+  font-size: 12px;
 }
 
 .footer-bottom a {
@@ -1238,7 +1230,7 @@ a {
 }
 
 /* ========================================
-   TILLGÄNGLIGHET
+   AVAILABILITY
    ======================================== */
 
 a:focus-visible,
