@@ -191,6 +191,11 @@ a {
   min-height: 44px;
   padding-inline: 18px;
 }
+/* Hamburgarknapp – dold på desktop */
+.nav-toggle {
+  display: none;
+}
+
 
 /* ========================================
    HERO
@@ -1401,6 +1406,9 @@ button:focus-visible {
     min-height: 34px;
     font-size: 10px;
   }
+.button-header {
+    display: none;
+  }
 
   .nav {
     min-height: 72px;
@@ -1423,15 +1431,6 @@ button:focus-visible {
     font-size: 8px;
   }
 
-  .nav-links {
-    order: 3;
-    width: 100%;
-    justify-content: space-between;
-    gap: 12px;
-    padding-top: 11px;
-    border-top: 1px solid var(--border);
-    font-size: 11px;
-  }
 
   .button-small {
     min-height: 39px;
@@ -1647,5 +1646,122 @@ button:focus-visible {
   .footer-bottom {
     flex-direction: column;
     gap: 10px;
+  }
+}
+
+/* Mobil och mindre skärmar */
+@media (max-width: 1100px) {
+.button-header {
+    display: none;
+  }
+
+  .nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 76px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .nav .brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .nav-toggle {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 44px;
+    height: 44px;
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--white);
+    cursor: pointer;
+    z-index: 52;
+  }
+
+  .nav-toggle span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 2px;
+    background: var(--navy);
+  }
+
+  .nav-desktop-cta {
+    display: none;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 51;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    width: 100%;
+    padding: 12px 20px 20px;
+    background: var(--white);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 12px 20px rgb(48 8 32 / 8%);
+    font-size: 14px;
+  }
+
+  .nav-links.nav-links-open {
+    display: flex;
+  }
+
+  .nav-links > a:not(.button),
+  .nav-dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 46px;
+    padding: 12px 0;
+    text-align: left;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 0 8px 14px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .nav-mobile-cta {
+    display: inline-flex;
+    align-self: flex-start;
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav .brand img {
+    width: 150px;
+    height: auto;
   }
 }

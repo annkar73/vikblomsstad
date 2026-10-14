@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -21,7 +22,13 @@ const services = [
 ];
 
 export default function Header() {
+  const [mobileOpen, setMobileOpen] = useState(false);
   const [servicesOpen, setServicesOpen] = useState(false);
+
+  function closeMenu() {
+    setMobileOpen(false);
+    setServicesOpen(false);
+  }
 
   return (
     <header className="header">
@@ -30,6 +37,7 @@ export default function Header() {
           className="brand"
           href="/"
           aria-label="Vikblom Städ, startsida"
+          onClick={closeMenu}
         >
           <Image
             src="/images/vikblom-stad-logotyp.png"
@@ -39,9 +47,17 @@ export default function Header() {
           />
         </Link>
 
-        <nav className="nav-links" aria-label="Huvudmeny">
-          <Link href="/">Hem</Link>
-          <Link href="/#om-oss">Om oss</Link>
+        <nav
+          id="mobile-navigation"
+          className={`nav-links${mobileOpen ? " nav-links-open" : ""}`}
+          aria-label="Huvudmeny"
+        >
+          <Link href="/" onClick={closeMenu}>
+            Hem
+          </Link>
+          <Link href="/#om-oss" onClick={closeMenu}>
+            Om oss
+          </Link>
 
           <div className="nav-dropdown">
             <button
@@ -49,7 +65,7 @@ export default function Header() {
               className="nav-dropdown-toggle"
               aria-expanded={servicesOpen}
               aria-controls="services-menu"
-              onClick={() => setServicesOpen(!servicesOpen)}
+              onClick={() => setServicesOpen((open) => !open)}
             >
               Tjänster
               <span aria-hidden="true">
@@ -63,7 +79,7 @@ export default function Header() {
                   <Link
                     key={service.href}
                     href={service.href}
-                    onClick={() => setServicesOpen(false)}
+                    onClick={closeMenu}
                   >
                     {service.label}
                   </Link>
@@ -72,17 +88,47 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/#galleri">Galleri</Link>
-          <Link href="/jobba-har">Jobba här</Link>
-          <Link href="/kontakta-oss">Kontakt</Link>
+          <Link href="/#galleri" onClick={closeMenu}>
+            Galleri
+          </Link>
+          <Link href="/jobba-har" onClick={closeMenu}>
+            Jobba här
+          </Link>
+          <Link href="/kontakta-oss" onClick={closeMenu}>
+            Kontakt
+          </Link>
+
+          <Link
+            className="button button-small nav-mobile-cta"
+            href="/kontakta-oss"
+            onClick={closeMenu}
+          >
+            Boka hembesök <span aria-hidden="true">↗</span>
+          </Link>
         </nav>
 
         <Link
-          className="button button-small"
+          className="button button-small button-header nav-desktop-cta"
           href="/kontakta-oss"
         >
-          Boka hembesök <span aria-hidden="true">↗</span>
+          Boka hembesök
         </Link>
+
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label={mobileOpen ? "Stäng menyn" : "Öppna menyn"}
+          aria-expanded={mobileOpen}
+          aria-controls="mobile-navigation"
+          onClick={() => {
+            setMobileOpen((open) => !open);
+            setServicesOpen(false);
+          }}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
     </header>
   );
