@@ -1,25 +1,25 @@
 
 import Link from "next/link";
 
-export default function HemstadPage() {
+export default function KontorstadPage() {
   return (
     <main>
-      {/* Hero */}
+   
       <section className="hero">
         <div className="hero-wash" />
 
         <div className="container hero-grid">
           <div className="hero-copy">
             <span className="eyebrow">
-              {/* Brödsmulor eller kategoritext */}
+              breadcrumbs för sidan
             </span>
 
             <h1>
-              Hemstädning
+              Kontors- & arbetsplatsstädning
             </h1>
 
             <p className="hero-description">
-              {/* Introduktion om tjänsten */}
+             Introduktion till tjänsten
             </p>
 
             <div className="hero-actions">

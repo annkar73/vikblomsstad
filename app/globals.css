@@ -101,7 +101,26 @@ p {
 .nav-dropdown {
   position: relative;
 }
+.nav-dropdown-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
 
+.nav-dropdown-toggle:hover {
+  color: var(--pink);
+}
+
+.nav-dropdown-toggle span {
+  font-size: 16px;
+  line-height: 1;
+}
 .nav-dropdown-menu {
   position: absolute;
   top: calc(100% + 12px);

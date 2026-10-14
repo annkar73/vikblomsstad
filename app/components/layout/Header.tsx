@@ -5,20 +5,18 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+
 const services = [
-  { label: "Hemstädning", href: "/tjanster/hemstadning" },
-  { label: "Storstädning", href: "/tjanster/storstadning" },
-  { label: "Flyttstädning", href: "/tjanster/flyttstadning" },
-  { label: "Fönsterputsning", href: "/tjanster/fonsterputsning" },
+  { label: "Hemstädning", href: "/services/hemstad" },
+  { label: "Storstädning", href: "/services/storstad" },
+  { label: "Flyttstädning", href: "/services/flyttstad" },
+  { label: "Fönsterputsning", href: "/services/fonsterputs" },
   {
     label: "Kontors- & arbetsplatsstäd",
-    href: "/tjanster/kontors-och-arbetsplatsstad",
+    href: "/services/kontorstad",
   },
-  { label: "Byggstäd", href: "/tjanster/byggstad" },
-  {
-    label: "Utcheckningsstäd Airbnb",
-    href: "/tjanster/utcheckningsstad-airbnb",
-  },
+  { label: "Byggstäd", href: "/services/byggstad" },
+  { label: "Utcheckningsstäd Airbnb", href: "/services/airbnb" },
 ];
 
 export default function Header() {
