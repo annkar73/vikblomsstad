@@ -42,8 +42,9 @@ export default function Header() {
           <Image
             src="/images/vikblom-stad-logotyp.png"
             alt="Vikblom Städ"
-            width={200}
-            height={50}
+            width={180}
+            height={60}
+            style={{ height: "auto", width: "auto" }}
           />
         </Link>
 

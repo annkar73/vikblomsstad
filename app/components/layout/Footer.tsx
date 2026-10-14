@@ -17,6 +17,7 @@ export default function Footer() {
             alt="Vikblom Städ"
             width={180}
             height={60}
+            style={{ height: "auto", width: "auto" }}
             className="footer-logo"
           />
         </Link>
