@@ -7,7 +7,7 @@ export default function Home() {
       icon: "⌂",
       title: "Hemstädning",
       description:
-        "Återkommande städning eller enstaka tillfällen. Vi dammar, dammsuger, torkar golv och rengör kök och badrum.",
+        "Återkommande städning eller enstaka tillfällen. Vi dammar och dammsuger fria ytor, torkar golv och rengör kök och badrum.",
       color: "service-lavender",
     },
     {
@@ -16,7 +16,7 @@ export default function Home() {
       icon: "✧",
       title: "Storstädning",
       description:
-        "En mer grundlig städning när hemmet behöver lite extra omsorg, med exempelvis ugn, stoppade möbler och golvlister.",
+        "En mer grundlig städning när hemmet behöver lite extra omsorg, med exempelvis ugn, golvlister och bäddning.",
       color: "service-lavender",
     },
     {
@@ -34,7 +34,7 @@ export default function Home() {
       icon: "☼",
       title: "Fönsterputs",
       description:
-        "Beställs juni tillseptember. Vid större uppdrag kommer vi två: en putsar, en städar.",
+        "Beställs maj till oktober. Vid större uppdrag kommer vi två: en putsar, en städar.",
       color: "service-lavender",
     },
     {
@@ -43,7 +43,7 @@ export default function Home() {
       icon: "⌘",
       title: "Kontors- & arbetsplatsstäd",
       description:
-        "Kontor, butik, reception och trappst'dning. Även städning före och efter event.",
+        "Kontor, butik, reception och trappstädning. Även städning före och efter event.",
       color: "service-lavender",
     },
     {
@@ -105,7 +105,7 @@ export default function Home() {
               <a className="button">
                 Boka kostnadsfritt hembesök
               </a>
-              <a className="button button-outline">
+              <a className="button button-outline" href="tel:+46736325235">
                 Ring 073-632 52 35 
               </a>
             </div>
@@ -165,7 +165,7 @@ export default function Home() {
       <span aria-hidden="true">✳</span>
       <div>
         <h3>Allt material ingår</h3>
-        <p>Vi har med oss städmaterial, dammsugare och ångmaskin vid behov.</p>
+        <p>Vi har med oss städmaterial och dammsugare.</p>
       </div>
     </article>
 
@@ -194,7 +194,7 @@ export default function Home() {
               <h2>Städning för hem, flytt och arbetsplats</h2>
             </div>
             <p>
-              eventuell extra text, 1 till 3 meningar
+              eventuell extra text kan läggas till, 1 till 3 meningar
 
             </p>
           </div>
@@ -211,7 +211,7 @@ export default function Home() {
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
                 <a href="#kontakt" className="service-link">
-                  Läs mer <span aria-hidden="true">↗</span>
+                  Läs mer
                 </a>
               </article>
             ))}
@@ -227,7 +227,7 @@ export default function Home() {
               <h2>Från första kontakt till färdigstädat</h2>
             </div>
             <p>
-              eventuell extra text, 1 till 3 meningar
+              eventuell extra text kan läggas till, 1 till 3 meningar
             </p>
           </div>
 
@@ -243,14 +243,16 @@ export default function Home() {
               <span>2</span>
               <h3>Vi formar din beställning</h3>
               <p>
-                tillsammans lägger iv upp en arbetsplan. Flyttstädning får alltid ett fast pris.
+                tillsammans lägger vi upp en arbetsplan. Flyttstädning får alltid ett fast pris.
               </p>
             </article>
             <article className="process-card">
               <span>3</span>
               <h3>Vi städar, du njuter</h3>
               <p>
-                Vi har med oss allt material. Inte nöjd? Säg till inom 24 timmar så åtgärdar vi det
+                Vi har med oss allt material. 
+                <br></br>
+                Inte nöjd? Säg till inom 24 timmar så åtgärdar vi det
               </p>
             </article>
           </div>
@@ -289,7 +291,7 @@ export default function Home() {
 
       <p>
         Vid större uppdrag med fönsterputs samarbetar
-        företaget med J.a.R Allservice. Då kommer vi två:
+        företaget med Helene. Då kommer vi två:
         en putsar fönstren, den andra städar.
       </p>
 
@@ -305,8 +307,8 @@ export default function Home() {
         </article>
 
         <article className="about-fact">
-          <strong>Sedan 2021</strong>
-          <span>Stöttar bygden</span>
+          <strong>RUT-avdrag</strong>
+          <span>Direkt på fakturan</span>
         </article>
       </div>
 
@@ -333,7 +335,7 @@ export default function Home() {
       <article className="price-card">
         <span className="eyebrow">MÅNDAG–FREDAG</span>
         <p className="price-amount">
-          250 <span>kr/timme</span>
+          275 <span>kr/timme</span>
         </p>
         
       </article>
@@ -341,11 +343,11 @@ export default function Home() {
       <article className="price-card price-card-highlight">
         <span className="eyebrow">HELGER OCH RÖDA DAGAR</span>
         <p className="price-amount">
-          500 <span>kr/timme</span>
+          375 <span>kr/timme</span>
         </p>
       </article>  
     </div>
-    <div className="price-info">Priserna gäller inklusive moms och efter RUT-avdrag. Flyttstädning offereras alltid till fast pris</div>
+    <div className="price-info">Priserna gäller inklusive moms och efter RUT-avdrag. Flyttstädning offereras alltid till fast pris.</div>
   </div>
 
   <div className="rut-panel">
@@ -479,13 +481,13 @@ export default function Home() {
 
           <div className="contact-action">
             <a className="button button-light" href="tel:+46736325235">
-              Ring 073-632 52 35 <span aria-hidden="true">↗</span>
+              Ring 073-632 52 35
             </a>
             <a
               className="contact-email"
-              href="mailto:emelie.vikblom@vikblomstad.se"
+              href="mailto:emelie.vikblom@gmail.com"
             >
-              emelie.vikblom@vikblomstad.se
+              emelie.vikblom@gmail.com
             </a>
             <p className="contact-address">
               Carl Wahrens väg 22A
