@@ -1699,9 +1699,6 @@ button:focus-visible {
     background: var(--navy);
   }
 
-  .nav-desktop-cta {
-    display: none;
-  }
 
   .nav-links {
     display: none;

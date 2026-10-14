@@ -99,20 +99,14 @@ export default function Header() {
           </Link>
 
           <Link
-            className="button button-small nav-mobile-cta"
+            className="button button-small button-header"
             href="/kontakta-oss"
             onClick={closeMenu}
           >
-            Boka hembesök <span aria-hidden="true">↗</span>
+            Boka hembesök 
           </Link>
         </nav>
 
-        <Link
-          className="button button-small button-header nav-desktop-cta"
-          href="/kontakta-oss"
-        >
-          Boka hembesök
-        </Link>
 
         <button
           type="button"
