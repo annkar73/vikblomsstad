@@ -103,7 +103,7 @@ export default function Header() {
             href="/kontakta-oss"
             onClick={closeMenu}
           >
-            Boka hembesök 
+            Boka hembesök
           </Link>
         </nav>
 

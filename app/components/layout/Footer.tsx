@@ -60,7 +60,7 @@ export default function Footer() {
         <ul>
           <li><a href="tel:+46736325235">073-632 52 35</a></li>
           <li>
-            <a href="mailto:emelie.vikblom@vikblomstad.se">
+            <a href="mailto:emelie.vikblom@gmail.com">
               emelie.vikblom@gmail.com
             </a>
           </li>
