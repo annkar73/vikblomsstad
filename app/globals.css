@@ -51,7 +51,7 @@ a {
 }
 
 /* ========================================
-   TOPP OCH NAVIGATION
+   TOP AND NAVIGATION
    ======================================== */
 
 .topbar {
@@ -94,6 +94,46 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 28px;
+}
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: 0;
+  z-index: 20;
+
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2px;
+
+  min-width: 250px;
+  padding: 8px;
+
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(48 8 32 / 12%);
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 7px;
+  color: var(--text);
+  text-decoration: none;
+  white-space: normal;
+  transition: background 180ms ease, color 180ms ease;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a:focus-visible {
+  background: var(--light-pink);
+  color: var(--pink);
 }
 
 .brand {
@@ -364,7 +404,7 @@ a {
 }
 
 /* ========================================
-   GEMENSAMMA SEKTIONER
+   COMMON SECTIONS
    ======================================== */
 
 .section {
@@ -400,7 +440,7 @@ a {
 }
 
 /* ========================================
-   TJÄNSTER
+   SERVICES
    ======================================== */
 
 .services {
@@ -501,7 +541,7 @@ a {
 }
 
 /* ========================================
-   TRYGGHET OCH FÖRDELAR
+   SAFETY AND BENEFITS
    ======================================== */
 
 .container .trust-grid {
@@ -562,7 +602,7 @@ a {
 }
 
 /* ========================================
-   SÅ GÅR DET TILL
+   HOW IT WORKS
    ======================================== */
 
 .process-section {
@@ -644,7 +684,7 @@ a {
 }
 
 /* ========================================
-   OM OSS
+   ABOUT US
    ======================================== */
 
 .about {
@@ -791,7 +831,7 @@ a {
 }
 
 /* ========================================
-   PRISER OCH RUT
+   PRICING AND RUT
    ======================================== */
 
 .pricing-section {
