@@ -93,8 +93,8 @@ export default function ContactPage() {
               <article className="about-fact">
                 <strong>E-post</strong>
                 <span>
-                  <a href="mailto:emelie.vikblom@vikblomstad.se">
-                    emelie.vikblom@vikblomstad.se
+                  <a href="mailto:emelie.vikblom@gmail.com">
+                    emelie.vikblom@gmail.com
                   </a>
                 </span>
               </article>

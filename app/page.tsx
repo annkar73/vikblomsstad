@@ -9,6 +9,7 @@ export default function Home() {
       description:
         "Återkommande städning eller enstaka tillfällen. Vi dammar och dammsuger fria ytor, torkar golv och rengör kök och badrum.",
       color: "service-lavender",
+      href: "/services/hemstad",
     },
     {
       number: "02",
@@ -18,6 +19,7 @@ export default function Home() {
       description:
         "En mer grundlig städning när hemmet behöver lite extra omsorg, med exempelvis ugn, golvlister och bäddning.",
       color: "service-lavender",
+      href: "/services/storstad",
     },
     {
       number: "03",
@@ -27,6 +29,7 @@ export default function Home() {
       description:
         "Alltid till fast pris efter kostnadsfritt hembesök. Checklista för in- och utflyttning.",
       color: "service-lavender",
+      href: "/services/flyttstad",
     },
     {
       number: "04",
@@ -36,6 +39,7 @@ export default function Home() {
       description:
         "Beställs maj till oktober. Vid större uppdrag kommer vi två: en putsar, en städar.",
       color: "service-lavender",
+      href: "/services/fonsterputs",
     },
     {
       number: "05",
@@ -45,6 +49,7 @@ export default function Home() {
       description:
         "Kontor, butik, reception och trappstädning. Även städning före och efter event.",
       color: "service-lavender",
+      href: "/services/kontorstad",
     },
     {
       number: "06",
@@ -54,6 +59,7 @@ export default function Home() {
       description:
         "Grovdammsugare för byggdamm. Bortforsling av byggmaterial kan beställas.",
       color: "service-blue",
+      href: "/services/byggstad",
     },
     {
       number: "07",
@@ -63,6 +69,7 @@ export default function Home() {
       description:
         "Vi gör rent inför nästa gäst och kan ordna löpande upplägg för dig som hyr ut ditt boende.",
       color: "service-lavender",
+      href: "/services/airbnb",
     },
         {
       number: "08",
@@ -72,6 +79,7 @@ export default function Home() {
       description:
         "Boka ett koststnadsfritt hembesök så går vi igenom bostaden tillsammans",
       color: "service-pink",
+      href: "/contact",
     },
 
   ];
@@ -102,7 +110,7 @@ export default function Home() {
             </p>
 
             <div className="hero-actions">
-              <a className="button">
+              <a className="button" href="/contact">
                 Boka kostnadsfritt hembesök
               </a>
               <a className="button button-outline" href="tel:+46736325235">
@@ -210,7 +218,7 @@ export default function Home() {
                 </span>
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>
-                <a href="#kontakt" className="service-link">
+                <a href={service.href} className="service-link">
                   Läs mer
                 </a>
               </article>
@@ -312,7 +320,7 @@ export default function Home() {
         </article>
       </div>
 
-      <a className="button button-outline" href="/om-oss">
+      <a className="button button-outline" href="/about">
         Läs mer om oss 
       </a>
     </div>
