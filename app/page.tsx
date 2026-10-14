@@ -1,5 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
 
 export default function Home() {
   const services = [
@@ -80,39 +78,7 @@ export default function Home() {
 
   return (
     <main>
-      <div className="topbar">
-        <div className="container topbar-inner">
-          <span>073-632 52 35 emelie.vikblom@vikblomstad.se</span>
-          <span className="topbar-highlight">RUT-avdraget dras direkt på fakturan</span>
-          
-        </div>
-      </div>
 
-      <header className="header">
-        <div className="container nav">
-          <a className="brand" href="#" aria-label="Vikblom Städ, startsida">
-            
-            <Image
-              src="/images/vikblom-stad-logotyp.png"
-              alt="Vikblom Städ"
-              width={200}
-              height={50}
-            />
-          </a>
-
-          <nav className="nav-links" aria-label="Huvudmeny">
-            <a href="#tjanster">Våra tjänster</a>
-            <a href="#om-oss">Om oss</a>
-            <a href="#priser">Priser</a>
-            <a href="#galleri">Galleri</a>
-            <a href="#kontakt">Kontakt</a>
-          </nav>
-
-          <a className="button button-small" href="#kontakt">
-            Be om en offert <span aria-hidden="true">↗</span>
-          </a>
-        </div>
-      </header>
 
       <section className="hero">
         <div className="hero-wash" />
@@ -531,94 +497,6 @@ export default function Home() {
       </section>
 
 
-<footer className="footer">
-  <div className="container">
-    <div className="footer-main">
-      <div className="footer-brand">
-        <Link
-          className="brand brand-footer"
-          href="/"
-          aria-label="Vikblom Städ, startsida"
-        >
-          <Image
-            src="/images/vikblom-stad-logotyp.png"
-            alt="Vikblom Städ"
-            width={180}
-            height={60}
-            className="footer-logo"
-          />
-        </Link>
-
-        <div className="footer-description">
-          <p>
-            Det lokala städföretaget med inriktning på hem och
-            arbetsplats. Kvalitativ städtjänst i Roslagen till ett
-            rimligt pris.
-          </p>
-        </div>
-      </div>
-
-      <div className="footer-column">
-        <h2>Tjänster</h2>
-        <ul>
-          <li><a href="#tjanster">Hemstädning</a></li>
-          <li><a href="#tjanster">Storstädning</a></li>
-          <li><a href="#tjanster">Flyttstädning</a></li>
-          <li><a href="#tjanster">Fönsterputs</a></li>
-          <li><a href="#tjanster">Kontors- &amp; arbetsplatsstäd</a></li>
-          <li><a href="#tjanster">Byggstädning</a></li>
-          <li><a href="#tjanster">Utcheckningsstäd Airbnb</a></li>
-        </ul>
-      </div>
-
-      <div className="footer-column">
-        <h2>Företaget</h2>
-        <ul>
-          <li><a href="#om-oss">Om oss</a></li>
-          <li><a href="#galleri">Galleri</a></li>
-          <li><a href="/jobba-har">Jobba här</a></li>
-          <li><a href="#kontakt">Kontakta oss</a></li>
-          <li><a href="#tjanster">Tjänster</a></li>
-          <li><a href="/integritetspolicy">Integritetspolicy</a></li>
-        </ul>
-      </div>
-
-      <div className="footer-column footer-contact-info">
-        <h2>Kontakt</h2>
-        <ul>
-          <li><a href="tel:+46736325235">073-632 52 35</a></li>
-          <li>
-            <a href="mailto:emelie.vikblom@vikblomstad.se">
-              emelie.vikblom@vikblomstad.se
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.google.com/maps/search/?api=1&query=Carl+Wahrens+v%C3%A4g+22A%2C+763+34+Hallstavik"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Carl Wahrens väg 22A, 763 34 Hallstavik
-            </a>
-          </li>
-          <li>Org.nr 559266-2224</li>
-          <li>Swish: 123 581 20 03</li>
-          <li>Godkänd för F-skatt</li>
-        </ul>
-      </div>
-    </div>
-
-    <div className="footer-bottom">
-      <span>© 2026 Vikblom Städ AB</span>
-
-      <p className="footer-locations">
-        Hallstavik <span>·</span> Älmsta <span>·</span> Väddö
-        <span>·</span> Grisslehamn <span>·</span> Singö
-        <span>·</span> Skebobruk
-      </p>
-    </div>
-  </div>
-</footer>
     </main>
   );
 }

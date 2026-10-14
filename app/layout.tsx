@@ -2,6 +2,9 @@
 import type { Metadata } from "next";
 import { Quicksand } from "next/font/google";
 import "./globals.css";
+import TopBar from "./components/layout/TopBar";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 
 const quicksand = Quicksand({
   variable: "--font-quicksand",
@@ -20,7 +23,12 @@ export default function RootLayout({
 }: LayoutProps<"/">) {
   return (
     <html lang="sv" className={`${quicksand.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <TopBar />
+        <Header />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
