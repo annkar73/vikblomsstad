@@ -54,7 +54,7 @@ export default function Header() {
           <Link href="/" onClick={closeMenu}>
             Hem
           </Link>
-          <Link href="/#om-oss" onClick={closeMenu}>
+          <Link href="/about" onClick={closeMenu}>
             Om oss
           </Link>
 
@@ -87,19 +87,19 @@ export default function Header() {
             )}
           </div>
 
-          <Link href="/#galleri" onClick={closeMenu}>
+          <Link href="/gallery" onClick={closeMenu}>
             Galleri
           </Link>
-          <Link href="/jobba-har" onClick={closeMenu}>
+          <Link href="/work" onClick={closeMenu}>
             Jobba här
           </Link>
-          <Link href="/kontakta-oss" onClick={closeMenu}>
+          <Link href="/contact" onClick={closeMenu}>
             Kontakt
           </Link>
 
           <Link
             className="button button-small button-header"
-            href="/kontakta-oss"
+            href="/contact"
             onClick={closeMenu}
           >
             Boka hembesök

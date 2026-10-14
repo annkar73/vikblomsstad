@@ -1318,6 +1318,155 @@ p {
   color: white;
 }
 
+/*=========================================
+  FORMS, CONTACT AND WORK
+  =========================================*/
+
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  max-width: 760px;
+  min-width: 0;
+  padding: 32px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgb(47 42 107 / 6%);
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px 18px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+}
+
+.form-field label {
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.form-control,
+.form-textarea {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 13px 15px;
+  border: 1px solid #ded6e7;
+  border-radius: 9px;
+  background: var(--light-lavender);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.5;
+  transition:
+    border-color 180ms ease,
+    box-shadow 180ms ease,
+    background 180ms ease;
+}
+
+.form-control {
+  min-height: 48px;
+}
+
+.form-textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.form-control::placeholder,
+.form-textarea::placeholder {
+  color: var(--muted);
+  opacity: 0.8;
+}
+
+.form-control:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: var(--pink);
+  background: var(--white);
+  box-shadow: 0 0 0 3px rgb(232 0 120 / 10%);
+}
+
+.form-control:focus-visible,
+.form-textarea:focus-visible {
+  outline: 2px solid var(--pink);
+  outline-offset: 2px;
+}
+
+.form-control:disabled,
+.form-textarea:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.form-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.contact-form .button {
+  align-self: flex-start;
+  min-height: 48px;
+  padding-inline: 25px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.contact-form .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  transform: none;
+}
+
+.contact-form a:not(.button) {
+  color: var(--navy);
+  text-decoration: underline;
+  text-decoration-color: var(--pink);
+  text-underline-offset: 3px;
+}
+
+.contact-form a:not(.button):hover {
+  color: var(--pink);
+}
+
+/* Forms on smaller screens */
+@media (max-width: 640px) {
+  .contact-form {
+    gap: 20px;
+    padding: 22px 18px;
+    border-radius: 14px;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .form-control,
+  .form-textarea {
+    font-size: 16px;
+  }
+
+  .contact-form .button {
+    width: 100%;
+  }
+}
+
+
+
 /* ========================================
    AVAILABILITY
    ======================================== */
