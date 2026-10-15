@@ -147,59 +147,6 @@ export default function HemstadPage() {
         </div>
       </section>
 
-      {/* Praktisk information – anpassas per tjänst */}
-      <section className="service-area-section section">
-        <div className="container service-area-panel">
-          <div>
-            <span className="eyebrow">
-              {/* Kategoritext */}
-            </span>
-
-            <h2>
-              {/* Rubrik */}
-            </h2>
-          </div>
-
-          <div>
-            <p>
-              {/* Praktisk information, villkor eller priser */}
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Kontakt */}
-      <section className="contact section">
-        <div className="container contact-panel">
-          <div className="contact-copy">
-            <span className="eyebrow">VI HÖR GÄRNA FRÅN DIG</span>
-
-            <h2>
-              {/* Avslutande rubrik */}
-            </h2>
-
-            <p>
-              {/* Avslutande text */}
-            </p>
-          </div>
-
-          <div className="contact-action">
-            <Link className="button button-light" href="/kontakta-oss">
-              Kontakta oss
-            </Link>
-
-            <a className="contact-email" href="mailto:emelie.vikblom@gmail.com">
-              emelie.vikblom@gmail.com
-            </a>
-
-            <p className="contact-address">
-              Carl Wahrens väg 22A
-              <br />
-              763 34 Hallstavik
-            </p>
-          </div>
-        </div>
-      </section>
     </main>
   );
 }
