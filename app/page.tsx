@@ -32,7 +32,7 @@ export default function Home() {
       href: "/services/flyttstad",
     },
     {
-      number: "04",
+      number: "04", 
       category: "Fönsterputs",
       icon: "☼",
       title: "Fönsterputs",
@@ -41,6 +41,7 @@ export default function Home() {
       color: "service-lavender",
       href: "/services/fonsterputs",
     },
+
     {
       number: "05",
       category: "Kontors- och arbetsplatsstäd",
