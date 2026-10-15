@@ -116,10 +116,10 @@ export default function HemstadPage() {
               
             </article>
             <article className="process-card">
-              <ul className="hero-card">
-                <li><span className="note-check" aria-hidden="true">✓</span>Vi tömmer inte vattenlås vid hemstädning, det ingår vid storstädning och flyttstädning</li>
-                <li><span className="note-check" aria-hidden="true">✓</span>Vill du ha ugnsrengöring eller bäddning? Då passar storstädning bättre</li>
-                <li><span className="note-check" aria-hidden="true">✓</span>Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar</li>
+              <ul className="hero-note">
+                <li>Vi tömmer inte vattenlås vid hemstädning, det ingår vid storstädning och flyttstädning</li>
+                <li>Vill du ha ugnsrengöring eller bäddning? Då passar storstädning bättre</li>
+                <li>Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar</li>
               
               </ul>
             </article>
