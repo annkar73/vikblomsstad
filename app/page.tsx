@@ -137,7 +137,7 @@ export default function Home() {
           </div>
           
 
-          <div className="hero-visual">
+          <div className="hero-visual hero-home">
             <div
               className="hero-photo"
               role="img"

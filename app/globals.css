@@ -358,12 +358,16 @@ p {
   min-height: 435px;
   border-radius: 150px 18px 150px 18px;
   background-color: #e9e4ed;
-  background-image: url("/images/vikblom-stad-hemstadning-golv-1024x576.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: 0 20px 55px rgb(47 42 107 / 9%);
 }
-
+.hero-home .hero-photo {
+  background-image: url("/images/vikblom-stad-hemstadning-golv-1024x576.jpg");
+}
+.hero-about .hero-photo {
+  background-image: url("/images/emelie-vikblom.jpg");
+}
 .photo-label {
   position: absolute;
   left: -32px;
@@ -822,6 +826,80 @@ p {
   line-height: 1.5;
 }
 
+.about-info-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  min-width: 0;
+}
+
+.about-info-card {
+  position: relative;
+  padding: 32px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 18px 0 18px 0;
+  box-shadow: 0 10px 35px rgb(47 42 107 / 6%);
+}
+
+.about-info-card::before,
+.about-info-card::after {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-color: var(--pink);
+  border-style: solid;
+  pointer-events: none;
+}
+
+.about-info-card::before {
+  top: -1px;
+  right: -1px;
+  border-width: 2px 2px 0 0;
+}
+
+.about-info-card::after {
+  bottom: -1px;
+  left: -1px;
+  border-width: 0 0 2px 2px;
+}
+
+.about-info-card h3 {
+  margin: 12px 0;
+  color: var(--navy);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.about-info-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+.about-area-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.about-area-list li {
+  padding: 9px 13px;
+  border: 1px solid #white;
+  border-radius: 5px;
+  background: var(--white);
+  color: var(--navy);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+
 .button-outline {
   display: inline-flex;
   align-items: center;
@@ -838,6 +916,49 @@ p {
   color: var(--navy);
 }
 
+.about-details {
+  background: var(--light-lavender);
+  padding-top: 0px;
+}
+
+.about-details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.about-details-card {
+  position: relative;
+  min-width: 0;
+  padding: 32px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  box-shadow: 0 10px 35px rgb(47 42 107 / 6%);
+}
+
+
+.about-details-card h3 {
+  margin: 12px 0;
+  color: var(--navy);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.about-details-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+@media (max-width: 900px) {
+  .about-details-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
 @media (max-width: 640px) {
   .about-facts {
     gap: 8px;
@@ -854,6 +975,12 @@ p {
 
   .about-fact span {
     font-size: 0.8rem;
+  }
+  .about-info-card {
+    padding: 24px 20px;
+  }
+  .about-details-card {
+    padding: 24px 20px;
   }
 }
 

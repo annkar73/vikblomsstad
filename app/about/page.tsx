@@ -19,9 +19,8 @@ export default function AboutPage() {
             </h1>
 
             <p className="hero-description">
-              Vikblom Städ AB drivs av Emelie Vikblom med utgångspunkt i
-              Hallstavik. Vi vill skapa rena och trivsamma miljöer och göra
-              vardagen lite enklare för våra kunder.
+              Ett litet städföretag medutgångspunkt i
+              Hallstavik, som fokuserar på att förbättra både hem- och arbetsplatsmiljöer. Vi strävar efter att göra varje städuppdrag till en personlig och givande upplevelse. 
             </p>
 
             <div className="hero-actions">
@@ -53,7 +52,7 @@ export default function AboutPage() {
             </ul>
           </div>
 
-          <div className="hero-visual">
+          <div className="hero-visual hero-about">
             <div
               className="hero-photo"
               role="img"
@@ -74,69 +73,86 @@ export default function AboutPage() {
 
         <div className="container hero-bottom">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
-          <a href="#vart-arbetssatt" aria-label="Läs om vårt arbetssätt">
-            ↓
-          </a>
+          
         </div>
       </section>
 
-      <section className="about section">
-        <div className="container about-grid">
-          <div className="about-visual">
-            <div
-              className="about-photo"
-              role="img"
-              aria-label="Vikblom Städs arbete med rena och trivsamma miljöer"
-            />
-          </div>
 
-          <div className="about-copy">
-            <span className="eyebrow">OM VIKBLOM STÄD</span>
+<section className="about section">
+  <div className="container about-grid">
+    <div className="about-copy">
+      <span className="eyebrow">VÅR HISTORIA</span>
 
-            <h2>Personlig service och omsorg om detaljerna</h2>
+      <h2>Personligt, noggrant och nära</h2>
 
-            <p>
-              Vikblom Städ AB är ett lokalt städföretag med utgångspunkt i
-              Hallstavik. Vi hjälper både privatpersoner och företag med
-              städning som anpassas efter uppdraget.
-            </p>
+      <p>
+        Vikblom Städ AB drivs av Emelie Vikblom. Inför varje uppdrag
+        lyssnar vi på dina önskemål och tillsammans formar vi din
+        beställning. Vi vill att det ska synas att städ har varit inne,
+        och att du ska känna dig trygg med vem som kommer hem till dig.
+      </p>
 
-            <blockquote className="about-quote">
-              Inför varje uppdrag lyssnar jag på dina önskemål, och
-              tillsammans formar vi din beställning.
-            </blockquote>
+      <blockquote className="about-quote">
+        Inför varje uppdrag lyssnar jag på dina önskemål, och
+        tillsammans formar vi din beställning.
+      </blockquote>
 
-            <p>
-              Målet är att du ska känna dig trygg med vad som ska göras,
-              hur arbetet läggs upp och vilket resultat du kan förvänta dig.
-            </p>
+      <p>
+        Vi städar i hela Norrtälje kommun med tyngdpunkt på Hallstavik,
+        Älmsta, Väddö, Grisslehamn, Singö och Skebobruk.
+      </p>
 
-            <div className="about-facts">
-              <article className="about-fact">
-                <strong>Hallstavik</strong>
-                <span>Vår utgångspunkt</span>
-              </article>
+      <div className="about-facts">
+        <article className="about-fact">
+          <strong>Hallstavik</strong>
+          <span>Vår utgångspunkt</span>
+        </article>
 
-              <article className="about-fact">
-                <strong>F-skatt</strong>
-                <span>Godkänt företag</span>
-              </article>
+        <article className="about-fact">
+          <strong>F-skatt</strong>
+          <span>Godkänt företag</span>
+        </article>
 
-              <article className="about-fact">
-                <strong>Roslagen</strong>
-                <span>Vårt närområde</span>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
+        <article className="about-fact">
+          <strong>Roslagen</strong>
+          <span>Vårt närområde</span>
+        </article>
+      </div>
+    </div>
+
+   
+
+<div className="about-info-cards">
+  <article className="about-info-card">
+    <span className="eyebrow">PERSONAL</span>
+    <h3>Personligt och nära</h3>
+    <p>
+      Emelie på Vikblom Städ AB utför arbetet själv. Vid större uppdrag
+      som inkluderar fönsterputsning samarbetar hon med Helene. Då
+      arbetar de tillsammans – en putsar fönstren medan den andra
+      tar hand om städningen.
+    </p>
+  </article>
+
+  <article className="about-info-card">
+    <span className="eyebrow">MATERIAL</span>
+    <h3>Vi tar med det som behövs</h3>
+    <p>
+      Vi tar med oss allt städmaterial som behövs för uppdraget,
+      inklusive dammsugare, så att du kan känna dig trygg med att vi
+      har det som krävs för en noggrann städning.
+    </p>
+  </article>
+</div>
+  </div>
+</section>
 
       <section className="process-section section" id="vart-arbetssatt">
         <div className="container">
           <div className="section-heading">
             <div>
-              <span className="eyebrow">VÅRT ARBETSSÄTT</span>
-              <h2>En tydlig plan från början</h2>
+              <span className="eyebrow">SÅ JOBBAR VI</span>
+              <h2>Det här kan du alltid räkna med</h2>
             </div>
 
             <p>
@@ -145,51 +161,92 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="process-grid">
-            <article className="process-card">
-              <span>1</span>
-              <h3>Vi lyssnar</h3>
-              <p>
-                Vi pratar om bostaden eller lokalen och vad du vill ha hjälp
-                med.
-              </p>
-            </article>
+          <div className="container trust-grid">
+    <article>
+      <span aria-hidden="true">%</span>
+      <div>
+        <h3>RUT-avdrag på fakturan</h3>
+        <p>Du kan få upp till 50 % av arbetskostnaden i RUT-avdrag. Vi drar av det direkt på fakturan.</p>
+      </div>
+    </article>
 
-            <article className="process-card">
-              <span>2</span>
-              <h3>Vi planerar</h3>
-              <p>
-                Tillsammans formar vi en beställning som passar uppdraget
-                och dina önskemål.
-              </p>
-            </article>
+    <article>
+      <span aria-hidden="true">✓</span>
+      <div>
+        <h3>Nöjd kund-garanti 24 h</h3>
+        <p>Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
+      </div>
+    </article>
 
-            <article className="process-card">
-              <span>3</span>
-              <h3>Vi tar hand om städningen</h3>
-              <p>
-                Vi tar med städmaterial och arbetar för att du ska bli nöjd
-                med resultatet.
-              </p>
-            </article>
-          </div>
+    <article>
+      <span aria-hidden="true">✳</span>
+      <div>
+        <h3>Allt material ingår</h3>
+        <p>Vi har med oss städmaterial och dammsugare.</p>
+      </div>
+    </article>
+
+    <article>
+      <span aria-hidden="true">⌖</span>
+      <div>
+        <h3>Lokalt i Roslagen</h3>
+        <p>Hallstavik, Älmsta, Väddö, Grisslehamn, Singö och Skebobruk.</p>
+      </div>
+    </article>
+  </div>
         </div>
       </section>
+
+<section className="about-details section">
+  <div className="container">
+    <div className="about-details-grid">
+      <article className="about-details-card">
+        <span className="eyebrow">TRYGGHET</span>
+        <h3>Nöjd kund-garanti</h3>
+        <p>
+          Du har städgaranti i 24 timmar. Om det är något du inte blivit
+          nöjd med, hör av dig så kommer vi och fixar det kostnadsfritt
+          så fort som möjligt.
+        </p>
+      </article>
+
+      <article className="about-details-card">
+        <span className="eyebrow">BETALNING</span>
+        <h3>Faktura och betalning</h3>
+        <p>
+          Vi erbjuder två betalningssätt: betala fakturan via mejl
+          eller swisha till 123 581 20 03. Ange fakturanummer vid
+          betalning. Företaget är godkänt för F-skatt.
+        </p>
+      </article>
+
+      <article className="about-details-card">
+        <span className="eyebrow">PRIVATPERSONER</span>
+        <h3>RUT-avdrag</h3>
+        <p>
+          Som privatperson får du rutavdrag med högst 50 % av
+          arbetskostnaden. Vi gör avdraget på fakturan.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
 
       <section className="service-area-section section">
         <div className="container service-area-panel">
           <div>
-            <span className="eyebrow">LOKALT I ROSLAGEN</span>
-            <h2>Nära våra kunder</h2>
+            <span className="eyebrow">HÄR FINNS VI</span>
+            <h2>Vi städar i hela Norrtälje Kommun</h2>
+                        <p>
+              Med Hallstavik som bas når vi snabbt orterna längs kusten. Bor du någon annanstans i kommunen? Hör av dig, så löser vi det oftast ändå.
+            </p>
+
           </div>
 
           <div>
-            <p>
-              Med utgångspunkt i Hallstavik arbetar Vikblom Städ i
-              Norrtälje kommun, bland annat i:
-            </p>
 
-            <ul className="area-list">
+            <ul className="about-area-list">
               <li>Hallstavik</li>
               <li>Älmsta</li>
               <li>Väddö</li>
