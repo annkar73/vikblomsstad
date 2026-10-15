@@ -27,12 +27,12 @@ export default function HemstadPage() {
                 Boka kostnadsfritt hembesök
               </Link>
 
-              <a
+              <Link
                 className="button button-outline"
                 href="tel:+46736325235"
               >
                 Ring 073-632 52 35
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -75,9 +75,9 @@ export default function HemstadPage() {
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><button className="button">Boka hembesök</button></div>
+            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
             <br></br>
-            <div><button className="button button-outline-invert">Ring 073-632 52 35</button></div>
+            <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>
               <strong>Nöjd kund-garanti:</strong> hör av dig inom 24 timmar om något inte blev bra, så åtgärdar vi det kostnadsfritt.
             </p>
@@ -135,9 +135,9 @@ export default function HemstadPage() {
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><button className="button">Boka hembesök</button></div>
+            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
             <br></br>
-            <div><button className="button button-outline-invert">Ring 073-632 52 35</button></div>
+            <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>
               <strong>Nöjd kund-garanti:</strong> hör av dig inom 24 timmar om något inte blev bra, så åtgärdar vi det kostnadsfritt.
             </p>
