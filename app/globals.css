@@ -1399,6 +1399,10 @@ p {
   max-width: 600px;
   font-size: clamp(30px, 3.8vw, 43px);
 }
+.contact-copy h3 {
+  font-size: clamp(25px, 3vw, 34px);
+  margin: 0 0 12px;
+}
 
 .contact-copy > p {
   max-width: 460px;
