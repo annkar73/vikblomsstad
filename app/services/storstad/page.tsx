@@ -119,7 +119,7 @@ export default function StorstadPage() {
               <h3>Exempel på tillägg i storstädning</h3>
               <ul className="hero-note">
                 <li><span className="note-check" aria-hidden="true">✓</span>Ugnsrengöring in- och utvändigt</li>
-                <li><span className="note-check" aria-hidden="true">✓</span>Dammsugning av klädda möblier</li>
+                <li><span className="note-check" aria-hidden="true">✓</span>Dammsugning av klädda möbler</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>Rengöring av lister och snickerier</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>Bäddning med rena lakan</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>Avkalkning och rengöring av vattenlås</li>
