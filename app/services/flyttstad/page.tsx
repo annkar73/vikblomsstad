@@ -59,8 +59,12 @@ export default function FlyttstadPage() {
         <div className="container about-grid">
           <div className="about about-copy">
             <h2>Städat och godkänt vid besiktningen</h2>
-            <p>En flyttstädning ska klara besiktningen, oavsett om det är en hyresvärd, en bostadsrättsförening eller en köpare som granskar. Vi följer en fast checklista som täcker samtliga rum, kök och badrum, och vi har med oss allt material som behövs. Priset bestämmer vi i förväg vid hembesöket, så du vet exakt vad det kostar. </p>
+            <p>Det ingår ett kostnadfritt hembesök där vi ser över ytorna i din bostad. En flyttstädning ska klara besiktningen, oavsett om det är en hyresvärd, en bostadsrättsförening eller om det är du som kund som granskar.</p>
+            <p> Vi följer en fast checklista (se nedan) som täcker samtliga rum, kök och badrum, och vi har med oss allt material som behövs.</p> 
+            <p>Vi utför alltid flyttstädningen till ett fast pris, så du vet exakt vad det kostar. </p>
             <p>Som privatperson får du RUT-avdrag på 50 % av arbetskostnaden. Vi gör avdraget direkt på fakturan. </p>
+            <p><strong>Nöjd kund-garanti:</strong></p>
+            <p>Efter utfört uppdrag gör vi en slutbesiktning tillsammans med dig som kund. Om det är något du inte blivit nöjd med hör av dig till oss så kommer vi och fixar det kostnadsfritt så fort som möjligt.<strong> Din städgaranti gäller i 24 timmar.</strong></p>
           </div>
 
           <div className="booking-card service-navy">
@@ -103,26 +107,18 @@ export default function FlyttstadPage() {
              <ul className="hero-note">
               <li>
                 <span className="note-check" aria-hidden="true">✓</span>
-                Damma och ta bort fläckar, klistermärken och dekaler från väggar och tak
+                Fönsterputs in- och utsida samt mellan glasen (vår och sommar)
               </li>
               <li><span className="note-check" aria-hidden="true">✓</span>
-              Torka av snickerier: dörrkarmar, lister, fönsterbrädor, trappräcken, fasta hyllor och skåp</li>
+              Rengöring bakom element</li>
               <li><span className="note-check" aria-hidden="true">✓</span>
-              Ta bort tavelkrokar, damma eluttag och fast belysning</li>
+              Rengöring av golv</li>
               <li><span className="note-check" aria-hidden="true">✓</span>
-              Tvätta fönster in- och utvändigt samt mellan rutorna, torka karmar</li>
+              Avtorkning av innerdörrar, lister, kontakter, fönsterbrädor och lampor</li>
               <li><span className="note-check" aria-hidden="true">✓</span>
-              Rengöring av persienner och alla fönsterbrädor</li>
+              Rengöring av garderober både utvändigt och invändigt</li>
               <li><span className="note-check" aria-hidden="true">✓</span>
-              Städa elementen på fram- och baksida</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>
-              Torka av alla dörrar och handtag, även ytterdörrar</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>
-              Städa ur kakelugnar och öppen spis</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>
-              Dammsugning och våttorkning av alla golv, dammsugning och torkning av garderober</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>
-              Rengöring av fasta speglar</li>
+              Rengöring av väggar från damm</li>
              </ul>
               
             </article>
@@ -130,60 +126,55 @@ export default function FlyttstadPage() {
               <h3>Kök</h3>
               <ul className="hero-note">
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Kakel, väggar, bänkskivor och fasta skärbrädor</li>
+                Rengöring av kyl och frys, både invändigt och utvändigt</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Kranar och diskho avkalkas, inklusive propp och sil</li>
+                Rengöring av spis invändigt, utvändigt och bakom</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Vattenledningar och rör torkas av</li>
+                Rengöring av värmeskåp</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Skåp och lådor in- och utvändigt</li>
+                Rengöring av diskmaskin, invändigt och utvändigt</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Kyl och frys in- och utvändigt, lådorna rengörs</li>
+                Avtorkning av skåp, lådor och bänkar både invändigt och utvändigt</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Spis, ugn, ugnslucka, plåtar, galler och värmeskåp</li>
+                Rengöring av dörrar, lister, kontakter, fönsterbrädor och lampor</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Spisen dras fram, golv och väggar bakom torkas</li>
+                Dammsugning och våttorkning av golv</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Fläkt och filter avfettas in- och utvändigt</li>
-                <li><span className="note-check" aria-hidden="true">✓</span>
-                Mikro diskmaskin med filter, sopskåp och sopkärl</li>
+                Dammsugning och våttorkning av golv</li>
               </ul>
             </article>
             <article className="process-card">
               <h3>Badrum och toalett</h3>
               <ul className="hero-note">
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Golvbrunnar och vattenlås rensas och rengörs</li>
+                Rengöring av dusch och badkar</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Kranar, rör och duschmunstycke avkalkas</li>
+                Rengöring av handfat inklusiver undersida</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Duschväggar, väggar, kakel och fogar</li>
+                Rengöring in- och utsidan av toalettstol</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Badkar in- och utvändigt, fronten tas bort</li>
+                Rengöring av golvbrunnar, ventiler och vattenlås</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Skåp, lådor och speglar</li>
+                Rengöring av skåp, lådor och bänkar både invändigt och utvändigt</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Handfat och toalett in- och utvändigt, inklusiver rör</li>
+                Avtorkning av speglar och lampor</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Tvättmaskin och torktumlare, filter och tvättmedelsfack</li>
+                Rengöring av golv</li>
               </ul>
             </article>
 
 
           </div>
         </div>
-        <section>
-          <div>
 
-          </div>
-          </section>    
-
-        <section className="section">                          
+        <section className="section contact-panel">                          
           <article className="process-card container">
               <h3>Detta ingår inte</h3>
               <ul className="hero-note">
                 <li><span className="note-check" aria-hidden="true">✓</span>
-                Tvätt av tak och väggar med tapet (dessa dammtorkas endast på grund av risk för skador på ytskiktet)</li>
+                Tvätt av tak och väggar med tapet</li>
+                <li><span className="note-check" aria-hidden="true">✓</span>
+                Rengöring av persienner</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
                 Rengöring av kristallampor</li>
                 <li><span className="note-check" aria-hidden="true">✓</span>
@@ -193,7 +184,8 @@ export default function FlyttstadPage() {
                 
               </ul>
               <div>
-                <p>Behöver du hjälp med något av detta? Säg till vid hembesöket så lämnar vi pris på det separat</p>
+                <br></br>
+                <p><strong>Vill du beställa till dessa tjänster tillkommer en extra avgift på 275 kr</strong></p>
                 </div>         
               </article>
 </section>
@@ -202,43 +194,37 @@ export default function FlyttstadPage() {
       <section className="section">
         <div className="container contact-panel">
           <div className="section-heading">
-            <div className="contact-copy">
-              <h3>
+            <div>
+              <h2>
                 Att tänka på innan vi kommer
-              </h3>
+              </h2>
+              <div>
               <p>
-                <strong>Töm bostaden på möbler. </strong>
-                Kvarlämnat får inte hindra att städningen kan utföras ordentligt.
+                <strong>Vi tar inte ansvar för fläckar på väggar med tapet. </strong>
+                Dessa dammtorkas endast p.g.a risken för skador på ytskiktet.
               </p>
               <p>
                 <strong>Avfrosta kyl och frys. </strong>
                 De ska vara tömda, avfrostade och avstängda på städdagen.
               </p>
               <p>
-                <strong>Flytta tyngre inredning</strong>
-                som spis och badkar, så vi kommer åt bakom.
+                <strong>Vitvaror ska vara framdragna </strong>
+                om det ska städas bakom. Dessa ställs tillbaka av kunden.
               </p>
               <p>
                 <strong>Ugnsluckans glas </strong>
                 monteras isär och tillbaka av dig som kund.
               </p>
               <p>
-                <strong>Åtgärda fel i förväg, </strong>
-                till exempel ett fönster som är trögt att öppna, eller meddela oss.
-              </p>
-              <p>
-                <strong>Toalettborste </strong>
-                ska finnas på plats.
-              </p>
-              <p><strong>Meddela oss </strong>
-              om belysning saknas
+                <strong>på grund av kyla</strong>
+                under höst- och vinterhalvåret putsar vi enbart insida av fönster under den säsongen.
               </p>
               <p>
                 <strong>Minst 18 grader inomhus </strong>
                 vid städtillfället, av hänsyn till vår hälsa.
               </p>
 
-
+</div>
             </div>  
             </div>
             </div>
