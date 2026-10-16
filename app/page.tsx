@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
+  description:
+    "Vikblom Städ erbjuder personlig hemstädning, storstädning och flyttstädning i Hallstavik och Norrtälje kommun. Boka ett kostnadsfritt hembesök.",
+};
 
 export default function Home() {
   const services = [

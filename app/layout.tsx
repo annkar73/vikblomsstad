@@ -12,10 +12,14 @@ const quicksand = Quicksand({
   display: "swap",
 });
 
+
 export const metadata: Metadata = {
-  title: "Vikblom Städ",
+  title: {
+    default: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
+    template: "Vikblom Städ | %s",
+  },
   description:
-    "Vikblom Städ erbjuder städtjänster med personlig service i Hallstavik med omnejd.",
+    "Vikblom Städ erbjuder personlig städservice i Hallstavik och Norrtälje kommun. Läs om hemstädning, storstädning, flyttstädning och våra övriga städtjänster.",
 };
 
 export default function RootLayout({
