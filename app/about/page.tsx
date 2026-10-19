@@ -86,15 +86,15 @@ export default function AboutPage() {
       <h2>Personligt, noggrant och nära</h2>
 
       <p>
-        Vikblom Städ AB drivs av Emelie Vikblom. Inför varje uppdrag
-        lyssnar vi på dina önskemål och tillsammans formar vi din
-        beställning. Vi vill att det ska synas att städ har varit inne,
-        och att du ska känna dig trygg med vem som kommer hem till dig.
+        Vikblom Städ AB drivs av mig, Emelie Vikblom. Jag flyttade från Falun till Roslagen 2019 och började arbeta som vikarie inom städ. Det dröjde inte länge innan jag började tänka att detta var något jag ville hålla på med på heltid. Jag trivdes med att bidra till en ren miljö och uppskattade att arbetet gav tydliga resultat direkt.
       </p>
+      <p>År 2020 startade jag mitt aktiebolag från grunden, med stöd av revisor och rådgivare.</p>
+      <p>Under de första två åren var jag tillgänglig för städning i hela Norrtälje och Uppsala kommun, vilket gjorde att jag snabbt byggde upp en stabil kundbas. Därefter valde jag att fokusera på verksamheten i Roslagen.</p>
+      <p>Idag har Vikblom Städ AB funnits i sex år och företaget fortsätter att växa. </p>
 
       <blockquote className="about-quote">
         Inför varje uppdrag lyssnar jag på dina önskemål, och
-        tillsammans formar vi din beställning.
+        tillsammans formar vi din beställning
       </blockquote>
 
       <p>
@@ -127,7 +127,8 @@ export default function AboutPage() {
     <span className="eyebrow">PERSONAL</span>
     <h3>Personligt och nära</h3>
     <p>
-      Emelie på Vikblom Städ AB utför arbetet själv. Vid större uppdrag
+      Emelie Vikblom på Vikblom Städ AB
+      utför arbetet själv. Vid större uppdrag
       som inkluderar fönsterputsning samarbetar hon med Helene. Då
       arbetar de tillsammans – en putsar fönstren medan den andra
       tar hand om städningen.
@@ -140,7 +141,7 @@ export default function AboutPage() {
     <p>
       Vi tar med oss allt städmaterial som behövs för uppdraget,
       inklusive dammsugare, så att du kan känna dig trygg med att vi
-      har det som krävs för en noggrann städning.
+      har det som krävs för en noggrann städning. Vi arbetar med miljövänliga städprodukter vid rengöring.
     </p>
   </article>
 </div>
@@ -224,7 +225,7 @@ export default function AboutPage() {
         <span className="eyebrow">PRIVATPERSONER</span>
         <h3>RUT-avdrag</h3>
         <p>
-          Som privatperson får du rutavdrag med högst 50 % av
+          Som privatperson får du RUT-avdrag med högst 50 % av
           arbetskostnaden. Vi gör avdraget på fakturan.
         </p>
       </article>
@@ -238,7 +239,7 @@ export default function AboutPage() {
           <div>
             <span className="eyebrow">HÄR FINNS VI</span>
             <h2>Vi städar i hela Norrtälje Kommun</h2>
-                        <p>
+            <p>
               Med Hallstavik som bas når vi snabbt orterna längs kusten. Bor du någon annanstans i kommunen? Hör av dig, så löser vi det oftast ändå.
             </p>
 
