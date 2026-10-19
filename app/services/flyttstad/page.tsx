@@ -95,7 +95,7 @@ export default function FlyttstadPage() {
           <div className="section-heading">
             <div>
               <h2>
-                Detta ingår i storstädningen
+                Detta ingår i flyttstädningen
               </h2>
             </div>
 
