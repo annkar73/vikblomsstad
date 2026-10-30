@@ -99,6 +99,7 @@ export default function FonsterputsPage() {
 
           <div className="process-grid">
             <article className="process-card">
+              <h3>Detta ingår</h3>
              <ul className="hero-note">
               <li>
                 <span className="note-check" aria-hidden="true">✓</span>
@@ -111,6 +112,7 @@ export default function FonsterputsPage() {
               
             </article>
             <article className="process-card">
+              <h3>Bra att veta</h3>
               <ul className="hero-note">
                 <li>Fönsterputs beställs under perioden maj till oktober</li>
                 <li>Persienner rengörs som tillägg, säg till vid bokningen</li>

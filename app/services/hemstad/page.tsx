@@ -116,6 +116,7 @@ export default function HemstadPage() {
               
             </article>
             <article className="process-card">
+              <h3>Bra att veta</h3>
               <ul className="hero-note">
                 <li>Vi tömmer inte vattenlås vid hemstädning, det ingår vid storstädning och flyttstädning</li>
                 <li>Vill du ha ugnsrengöring eller bäddning? Då passar storstädning bättre</li>
