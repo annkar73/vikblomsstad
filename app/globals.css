@@ -9,7 +9,7 @@
   --plum: #300820;
   --white: #ffffff;
   --text: #302a3d;
-  --muted: #706b7b;
+  --muted: #302a3d;
   --border: #eee8f1;
 }
 
@@ -387,7 +387,7 @@ p {
   background-image: url("/images/vikblom-stad-hemstadning-golv-1024x576.jpg");
 }
 .hero-fonsterputs .hero-photo {
-  background-image: url("/images/vikblom-stad-hemstadning-golv-1024x576.jpg");
+  background-image: url("/images/fonsterputs.jpg");
 }
 .hero-work .hero-photo {
   background-image: url("/images/emelie-vikblom.jpg");
