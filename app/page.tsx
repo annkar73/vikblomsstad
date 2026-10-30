@@ -196,7 +196,7 @@ export default function Home() {
 <br></br>
         <div className="hero-bottom container">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
-          <a href="#trygghet" aria-label="Läs om våra fördelar">↓</a>
+          <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
         </div>
 
       </section>
@@ -210,7 +210,7 @@ export default function Home() {
               <h2>Städning för hem, flytt och arbetsplats</h2>
             </div>
             <p>
-              eventuell extra text kan läggas till, 1 till 3 meningar
+              
 
             </p>
           </div>
@@ -243,7 +243,7 @@ export default function Home() {
               <h2>Från första kontakt till färdigstädat</h2>
             </div>
             <p>
-              eventuell extra text kan läggas till, 1 till 3 meningar
+              
             </p>
           </div>
 
