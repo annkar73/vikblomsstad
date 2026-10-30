@@ -18,6 +18,7 @@ export const metadata: Metadata = {
     default: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
     template: "Vikblom Städ | %s",
   },
+
   description:
     "Vikblom Städ erbjuder personlig städservice i Hallstavik och Norrtälje kommun. Läs om hemstädning, storstädning, flyttstädning och våra övriga städtjänster.",
 };
