@@ -35,7 +35,7 @@ export default function WorkPage() {
             </div>
           </div>
 
-          <div className="hero-visual">
+          <div className="hero-visual hero-work">
             <div
               className="hero-photo"
               role="img"
@@ -53,9 +53,9 @@ export default function WorkPage() {
         </div>
 
         <div className="container hero-bottom">
-          <span>VILL DU BLI EN DEL AV VIKBLOM STÄD?</span>
+          <span>VILL DU BLI EN DEL AV VIKBLOM STÄD? Kontakta oss för mer information</span>
           <a href="#vem-soker-vi" aria-label="Läs vem vi söker">
-            ↓
+            
           </a>
         </div>
       </section>
@@ -225,7 +225,7 @@ export default function WorkPage() {
                 className="form-control form-textarea"
                 name="message"
                 rows={5}
-                placeholder="Skriv gärna om dig själv, din erfarenhet och när du kan arbeta."
+                placeholder="Skriv lite om dig själv, din erfarenhet och när du kan arbeta."
                 required
               />
             </label>
@@ -235,7 +235,7 @@ export default function WorkPage() {
             </button>
 
             <p className="form-note">
-              Dina uppgifter är avsedda för rekrytering.Inga uppgifter delas vidare till tredje part.
+              Dina uppgifter är avsedda för rekrytering. Inga uppgifter delas vidare till tredje part.
             </p>
           </form>
         </div>
