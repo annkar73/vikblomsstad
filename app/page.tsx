@@ -513,7 +513,7 @@ export default function Home() {
             </p>
             <p>
               Du kan också boka ett kostnadsfritt hembesök
-              för att gå igenom uppdraget tillsammans.
+              så går vi igenom uppdraget tillsammans.
             </p>
           </div>
 
