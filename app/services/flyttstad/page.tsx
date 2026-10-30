@@ -36,7 +36,7 @@ export default function FlyttstadPage() {
             </div>
           </div>
 
-          <div className="hero-visual hero-hemstad">
+          <div className="hero-visual hero-flyttstad">
             <div
               className="hero-photo"
               role="img"

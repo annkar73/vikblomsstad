@@ -36,7 +36,7 @@ export default function AirbnbPage() {
             </div>
           </div>
 
-          <div className="hero-visual hero-hemstad">
+          <div className="hero-visual hero-airbnb">
             <div
               className="hero-photo"
               role="img"

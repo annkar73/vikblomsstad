@@ -36,7 +36,7 @@ export default function StorstadPage() {
             </div>
           </div>
 
-          <div className="hero-visual hero-hemstad">
+          <div className="hero-visual hero-storstad">
             <div
               className="hero-photo"
               role="img"
