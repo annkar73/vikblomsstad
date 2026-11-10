@@ -24,7 +24,7 @@ export default function ByggstadPage() {
 
             <div className="hero-actions">
               <Link className="button" href="/kontakta-oss">
-                Boka kostnadsfritt hembesök
+                Kontakta oss
               </Link>
 
               <a
@@ -81,13 +81,13 @@ export default function ByggstadPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss för bokning
             </h3>
 
             <p>
-              Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
+              Vi ser över ytorna tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>
@@ -149,7 +149,7 @@ export default function ByggstadPage() {
             <article className="process-card">
               <h3>Bra att veta</h3>
               <ul>
-                <li>Privatpersoner får RUT-avdrag på arbetskostnaden, avdraget görs på fakturan</li>
+                <li>Privatpersoner får RUT-avdrag på arbetskostnaden, avdraget görs direkt på fakturan</li>
                 <li>Berätta vid bokningen om det finns särskilt dammiga ytor eller kvarvarande byggmaterial</li>
                 <li>Vi lämnar fast pris efter ett kostnadsfritt besök</li>
               </ul>

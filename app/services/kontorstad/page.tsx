@@ -24,7 +24,7 @@ export default function KontorstadPage() {
 
             <div className="hero-actions">
               <Link className="button" href="/kontakta-oss">
-                Boka kostnadsfritt besök
+                Kontakta oss
               </Link>
 
               <a
@@ -135,7 +135,7 @@ export default function KontorstadPage() {
             <p>
               Vi ser över lokalerna tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka besök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
           </div>

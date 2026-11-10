@@ -24,7 +24,7 @@ export default function AirbnbPage() {
 
             <div className="hero-actions">
               <Link className="button" href="/contact">
-                Boka kostnadsfritt hembesök
+                Kontakta oss
               </Link>
 
               <Link
@@ -57,31 +57,21 @@ export default function AirbnbPage() {
       {/* Information om tjänsten */}
       <section className="about section">
         <div className="container about-grid">
+
+          <div className="about-visual">
+            <div
+              className="about-photo-airbnb"
+              role="img"
+              aria-label="Bild som illustrerar arbete inom städning"
+            />
+          </div>
           <div className="about about-copy">
             <h2>Rent och klart till nästa gäst</h2>
             <p>Vi lägger upp ett löpande samarbete som följer dina bokningar. Städningen anpassas efter bostaden och dina önskemål, till exempel bäddning, påfyllning av förbrukningsvaror och kontroll av att allt är på plats inför nästa incheckning.</p>
             <p>Vi har med oss allt städmaterial. Inför uppdraget gör vi ett besök i bostaden och formar upplägget tillsammans med dig.</p>
           </div>
 
-          <div className="booking-card service-navy">
-            <span className="eyebrow">
-              {/* Underrubrik */}
-            </span>
 
-            <h3>
-              Boka kostnadsfritt hembesök
-            </h3>
-
-            <p>
-              Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
-            </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
-            <br></br>
-            <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
-            <p>
-              <strong>Nöjd kund-garanti:</strong> hör av dig inom 24 timmar om något inte blev bra, så åtgärdar vi det kostnadsfritt.
-            </p>
-          </div>
         </div>
       </section>
 
@@ -130,13 +120,13 @@ export default function AirbnbPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss
             </h3>
 
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>

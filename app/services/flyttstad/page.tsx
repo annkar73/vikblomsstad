@@ -24,7 +24,7 @@ export default function FlyttstadPage() {
 
             <div className="hero-actions">
               <Link className="button" href="/contact">
-                Boka kostnadsfritt hembesök
+                Kontakta oss
               </Link>
 
               <Link
@@ -73,13 +73,13 @@ export default function FlyttstadPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss för bokning
             </h3>
 
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>
