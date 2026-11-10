@@ -118,16 +118,12 @@ export default function ContactPage() {
 
             <h3>Faktura och betalning</h3>
             <p>
-              Du kan betala fakturan via bankgiro eller swish. 
+              Du kan betala fakturan via bankgiro eller Swish till nummer 123 581 20 03. 
               <br />
               Ange fakturanummer vid betalning.
             </p>
             <p>
               Organisationsnummer: 559266-2224
-              <br />
-              Bankgiro: ......
-              <br />
-              Swish: 123 581 20 03
               <br />
               Godkänd för F-skatt.
             </p>
@@ -139,7 +135,7 @@ export default function ContactPage() {
             method="post"
           >
             <div className="form-grid">
-              <label className="form-field">
+              <label className="form-field"> 
                 Namn
                 <input
                   className="form-control"
