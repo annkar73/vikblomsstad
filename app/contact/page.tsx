@@ -79,7 +79,7 @@ export default function ContactPage() {
               Kontakta oss om du vill boka städning, har frågor om våra
               tjänster eller vill boka ett kostnadsfritt hembesök.
             </p>
-
+            <br />
             <div>
               <article className="about-fact">
                 <strong>Telefon</strong>
