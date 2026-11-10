@@ -167,7 +167,7 @@ export default function AboutPage() {
       <span aria-hidden="true">%</span>
       <div>
         <h3>RUT-avdrag på fakturan</h3>
-        <p>Du kan få upp till 50 % av arbetskostnaden i RUT-avdrag. Vi drar av det direkt på fakturan.</p>
+        <p>Som privatperson kan du få upp till 50 % av arbetskostnaden i RUT-avdrag. Vi drar av det direkt på fakturan.</p>
       </div>
     </article>
 
@@ -215,9 +215,11 @@ export default function AboutPage() {
         <span className="eyebrow">BETALNING</span>
         <h3>Faktura och betalning</h3>
         <p>
-          Vi erbjuder två betalningssätt: betala fakturan via mejl
+          Vi erbjuder två betalningssätt: betala fakturan via bankgiro
           eller swisha till 123 581 20 03. Ange fakturanummer vid
-          betalning. Företaget är godkänt för F-skatt.
+          betalning.
+          <br />
+          Företaget är godkänt för F-skatt.
         </p>
       </article>
 
@@ -226,7 +228,8 @@ export default function AboutPage() {
         <h3>RUT-avdrag</h3>
         <p>
           Som privatperson får du RUT-avdrag med högst 50 % av
-          arbetskostnaden. Vi gör avdraget på fakturan.
+          arbetskostnaden.
+          <br />Vi gör avdraget på fakturan.
         </p>
       </article>
     </div>
