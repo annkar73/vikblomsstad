@@ -80,27 +80,22 @@ export default function ContactPage() {
               tjänster eller vill boka ett kostnadsfritt hembesök.
             </p>
 
-            <div className="about-facts">
+            <div>
               <article className="about-fact">
                 <strong>Telefon</strong>
                 <span>
                   <a href="tel:+46736325235">073-632 52 35</a>
                 </span>
-              </article>
-
-              <article className="about-fact">
                 <strong>E-post</strong>
                 <span>
                   <a href="mailto:emelie.vikblom@gmail.com">
                     emelie.vikblom@gmail.com
                   </a>
                 </span>
-              </article>
-
-              <article className="about-fact">
-                <strong>Adress</strong>
+                 <strong>Adress</strong>
                 <span>Carl Wahrens väg 22A, 763 34 Hallstavik</span>
               </article>
+
             </div>
           </div>
         </div>
