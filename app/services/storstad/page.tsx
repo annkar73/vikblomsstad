@@ -130,11 +130,11 @@ export default function StorstadPage() {
               <h3>Bra att veta</h3>
              <ul className="hero-note">
               <li>
-                <span className="note-check" aria-hidden="true">✓</span>
+                <span className="note-check" aria-hidden="true"></span>
                 Berätta vid hembesöket vilka rum och ytor som är viktigast för dig, så prioriterar vi dem
               </li>
-              <li><span className="note-check" aria-hidden="true">✓</span>RUT-avdrag på 50% av arbetskostnaden dras direkt på fakturan</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar</li>
+              <li><span className="note-check" aria-hidden="true"></span>RUT-avdrag på 50% av arbetskostnaden dras direkt på fakturan</li>
+              <li><span className="note-check" aria-hidden="true"></span>Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar</li>
              </ul>
               
             </article>

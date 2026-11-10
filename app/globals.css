@@ -816,6 +816,15 @@ p {
   background-position: center;
   border-radius: 0 25px 25px 25px;
 }
+.about-photo-clean {
+  min-height: 490px;
+  background-color: var(--white);
+  background-image: url("/images/vikblom-stad-hemstad.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 0 25px 25px 25px;
+}
+
 
 .about-visual::before {
   position: absolute;
