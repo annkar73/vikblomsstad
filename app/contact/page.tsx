@@ -40,7 +40,7 @@ export default function ContactPage() {
 
           <div className="hero-visual">
             <div
-              className="hero-photo"
+              className="hero-photo hero-contact"
               role="img"
               aria-label="Bild som illustrerar Vikblom Städs arbete"
             />
@@ -57,9 +57,7 @@ export default function ContactPage() {
 
         <div className="container hero-bottom">
           <span>VI FINNS NÄRA DIG I ROSLAGEN</span>
-          <a href="#kontaktuppgifter" aria-label="Se kontaktuppgifter">
-            ↓
-          </a>
+        
         </div>
       </section>
 
@@ -120,11 +118,16 @@ export default function ContactPage() {
 
             <h3>Faktura och betalning</h3>
             <p>
-              Du kan betala fakturan via mejl eller swisha till
-              123 581 20 03. Ange fakturanummer vid betalning.
+              Du kan betala fakturan via bankgiro eller swish. 
+              <br />
+              Ange fakturanummer vid betalning.
             </p>
             <p>
               Organisationsnummer: 559266-2224
+              <br />
+              Bankgiro: ......
+              <br />
+              Swish: 123 581 20 03
               <br />
               Godkänd för F-skatt.
             </p>
@@ -304,7 +307,7 @@ export default function ContactPage() {
             <article className="process-card">
               <h3>Hur betalar jag?</h3>
               <p>
-                Du kan betala fakturan via mejl eller swisha till
+                Du kan betala fakturan via bankgiro eller swisha till
                 123 581 20 03. Ange fakturanummer vid betalning.
               </p>
             </article>
