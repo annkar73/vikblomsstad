@@ -38,9 +38,9 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="hero-visual">
+          <div className="hero-visual hero-contact">
             <div
-              className="hero-photo hero-contact"
+              className="hero-photo"
               role="img"
               aria-label="Bild som illustrerar Vikblom Städs arbete"
             />
