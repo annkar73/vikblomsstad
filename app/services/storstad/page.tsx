@@ -126,56 +126,21 @@ export default function StorstadPage() {
                 <li><span className="note-check" aria-hidden="true">✓</span>Rengöring av vitvaror invändigt</li>
               </ul>
             </article>
-          <div className="booking-card service-navy">
-            <span className="eyebrow">
-              {/* Underrubrik */}
-            </span>
-
-            <h3>
-              Boka kostnadsfritt hembesök
-            </h3>
-
-            <p>
-              Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
-            </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
-            <br></br>
-            <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
-            <p>
-              <strong>Nöjd kund-garanti:</strong> hör av dig inom 24 timmar om något inte blev bra, så åtgärdar vi det kostnadsfritt.
-            </p>
-          </div>
-
+            <article className="process-card">
+              <h3>Bra att veta</h3>
+             <ul className="hero-note">
+              <li>
+                <span className="note-check" aria-hidden="true">✓</span>
+                Berätta vid hembesöket vilka rum och ytor som är viktigast för dig, så prioriterar vi dem
+              </li>
+              <li><span className="note-check" aria-hidden="true">✓</span>RUT-avdrag på 50% av arbetskostnaden dras direkt på fakturan</li>
+              <li><span className="note-check" aria-hidden="true">✓</span>Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar</li>
+             </ul>
+              
+            </article>
           </div>
         </div>
       </section>
-      <section className="section">
-        <div className="container contact-panel">
-          <div className="section-heading">
-            <div className="contact-copy">
-              <span className="eyebrow">ATT TÄNKA PÅ</span>
-              <h3>
-                Bra att veta
-              </h3>
-              <ul>
-                <li>
-                  
-                  - Berätta vid hembesöket vilka rum och ytor som är viktigast för dig, så prioriterar vi dem 
-                </li>
-                <li>
-                  
-                  - RUT-avdrag på 50% av arbetskostnaden dras direkt på fakturan
-                </li>
-                <li>
-                  
-                  - Inomhustemperaturen bör inte vara lägre än 19 grader när vi städar
-                </li>
-
-              </ul>
-            </div>  
-            </div>
-            </div>
-            </section>
 
     </main>
   );
