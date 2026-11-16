@@ -75,6 +75,8 @@ export default function FonsterputsPage() {
 
             <p>
               Vi putsar fönstren på in- och utsida samt mellan rutorna, och torkar av karmar och fönsterbrädor. Vid större jobb samarbetar vi med Helene. Då kommer vi två: en putsar och en städar.
+              <br></br>
+              Under hösten när det är kallt putsar vi endast in- och utsida.
             </p>
 
             <p>
@@ -117,6 +119,7 @@ export default function FonsterputsPage() {
                 <li>Fönsterputs beställs under perioden maj till oktober</li>
                 <li>Persienner rengörs som tillägg, säg till vid bokningen</li>
                 <li>Meddela oss i förväg om ett fönster är trögt att öppna eller har skador</li>
+                <li>Vi använder stående stegar med arbetsplattform 2 meter, som rekommenderat av Arbetsmiljöverket. Är det högre kan vi tyvärr inte ta oss an uppdraget</li>
               
               </ul>
             </article>
