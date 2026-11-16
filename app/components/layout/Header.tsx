@@ -58,35 +58,40 @@ export default function Header() {
             Om oss
           </Link>
 
-          <div className="nav-dropdown">
-            <button
-              type="button"
-              className="nav-dropdown-toggle"
-              aria-expanded={servicesOpen}
-              aria-controls="services-menu"
-              onClick={() => setServicesOpen((open) => !open)}
-            >
-              Tjänster
-              <span aria-hidden="true">
-                {servicesOpen ? "⌃" : "⌄"}
-              </span>
-            </button>
+<div className="nav-dropdown">
+  <div className="nav-dropdown-header">
+    <Link href="/services" onClick={closeMenu}>
+      Tjänster
+    </Link>
 
-            {servicesOpen && (
-              <div className="nav-dropdown-menu" id="services-menu">
-                {services.map((service) => (
-                  <Link
-                    key={service.href}
-                    href={service.href}
-                    onClick={closeMenu}
-                  >
-                    {service.label}
-                  </Link>
-                ))}
-              </div>
-            )}
-          </div>
+    <button
+      type="button"
+      className="nav-dropdown-toggle"
+      aria-label={servicesOpen ? "Stäng tjänstemenyn" : "Visa tjänster"}
+      aria-expanded={servicesOpen}
+      aria-controls="services-menu"
+      onClick={() => setServicesOpen((open) => !open)}
+    >
+      <span aria-hidden="true">
+        {servicesOpen ? "⌃" : "⌄"}
+      </span>
+    </button>
+  </div>
 
+  {servicesOpen && (
+    <div className="nav-dropdown-menu" id="services-menu">
+      {services.map((service) => (
+        <Link
+          key={service.href}
+          href={service.href}
+          onClick={closeMenu}
+        >
+          {service.label}
+        </Link>
+      ))}
+    </div>
+  )}
+</div>
           <Link href="/gallery" onClick={closeMenu}>
             Galleri
           </Link>

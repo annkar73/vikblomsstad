@@ -7,90 +7,6 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  const services = [
-    {
-      number: "01",
-      category: "Hemstädning",
-      icon: "⌂",
-      title: "Hemstädning",
-      description:
-        "Återkommande städning eller enstaka tillfällen. Vi dammar och dammsuger fria ytor, torkar golv och rengör kök och badrum.",
-      color: "service-lavender",
-      href: "/services/hemstad",
-    },
-    {
-      number: "02",
-      category: "Storstädning",
-      icon: "✧",
-      title: "Storstädning",
-      description:
-        "En mer grundlig städning när hemmet behöver lite extra omsorg, med exempelvis ugn, golvlister och bäddning.",
-      color: "service-lavender",
-      href: "/services/storstad",
-    },
-    {
-      number: "03",
-      category: "Flyttstädning",
-      icon: "↗",
-      title: "Flyttstädning",
-      description:
-        "Alltid till fast pris efter kostnadsfritt hembesök. Checklista för in- och utflyttning.",
-      color: "service-lavender",
-      href: "/services/flyttstad",
-    },
-    {
-      number: "04", 
-      category: "Fönsterputs",
-      icon: "☼",
-      title: "Fönsterputs",
-      description:
-        "Beställs maj till oktober. Vid större uppdrag kommer vi två: en putsar, en städar.",
-      color: "service-lavender",
-      href: "/services/fonsterputs",
-    },
-
-    {
-      number: "05",
-      category: "Kontors- och arbetsplatsstäd",
-      icon: "⌘",
-      title: "Kontors- & arbetsplatsstäd",
-      description:
-        "Kontor, butik, reception och trappstädning. Även städning före och efter event.",
-      color: "service-lavender",
-      href: "/services/kontorstad",
-    },
-    {
-      number: "06",
-      category: "Byggstädning",
-      icon: "✳",
-      title: "Byggstädning",
-      description:
-        "Grovdammsugare för byggdamm. Bortforsling av byggmaterial kan beställas.",
-      color: "service-blue",
-      href: "/services/byggstad",
-    },
-    {
-      number: "07",
-      category: "Utcheckningsstäd Airbnb",
-      icon: "⌂",
-      title: "Utcheckningsstäd för Airbnb",
-      description:
-        "Vi gör rent inför nästa gäst och kan ordna löpande upplägg för dig som hyr ut ditt boende.",
-      color: "service-lavender",
-      href: "/services/airbnb",
-    },
-        {
-      number: "08",
-      category: "unsure",
-      icon: "⌂",
-      title: "Osäker på vad du behöver?",
-      description:
-        "Boka ett koststnadsfritt hembesök så går vi igenom bostaden tillsammans",
-      color: "service-pink",
-      href: "/contact",
-    },
-
-  ];
 
   return (
     <main>
@@ -119,7 +35,7 @@ export default function Home() {
 
             <div className="hero-actions">
               <a className="button" href="/contact">
-                Boka kostnadsfritt hembesök
+                Skicka en förfrågan
               </a>
               <a className="button button-outline" href="tel:+46736325235">
                 Ring 073-632 52 35 
@@ -202,38 +118,6 @@ export default function Home() {
       </section>
 
 
-      <section className="services section" id="tjanster">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">VÅRA TJÄNSTER</span>
-              <h2>Städning för hem, flytt och arbetsplats</h2>
-            </div>
-            <p>
-              
-
-            </p>
-          </div>
-
-          <div className="service-grid">
-            {services.map((service) => (
-              <article
-                className={`service-card ${service.color}`}
-                key={service.number}
-              >
-                <span className="service-icon" aria-hidden="true">
-                  {service.icon}
-                </span>
-                <h3>{service.title}</h3>
-                <p>{service.description}</p>
-                <a href={service.href} className="service-link">
-                  Läs mer
-                </a>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
 
       <section className="process-section section" id="sa-gar-det-till">
         <div className="container">
