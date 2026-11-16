@@ -52,7 +52,7 @@ export default function Footer() {
           <li><a href="/jobba-har">Jobba här</a></li>
           <li><a href="#kontakt">Kontakta oss</a></li>
           <li><a href="#tjanster">Tjänster</a></li>
-          <li><a href="/integritetspolicy">Integritetspolicy</a></li>
+          <li><a href="/integrity">Integritetspolicy</a></li>
         </ul>
       </div>
 
