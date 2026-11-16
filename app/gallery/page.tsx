@@ -38,7 +38,7 @@ export default function GalleryPage() {
             </div>
           </div>
 
-          <div className="hero-visual">
+          <div className="hero-visual hero-gallery">
             <div
               className="hero-photo"
               role="img"

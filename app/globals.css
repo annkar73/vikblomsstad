@@ -396,6 +396,9 @@ p {
 .hero-contact .hero-photo {
   background-image: url("/images/contact.jpg");
 }
+.hero-gallery .hero-photo {
+  background-image: url("/images/emelie-vikblom.jpg");
+}
 
 
 
