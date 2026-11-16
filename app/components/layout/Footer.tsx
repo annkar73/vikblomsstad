@@ -34,24 +34,24 @@ export default function Footer() {
       <div className="footer-column footer-services">
         <h2><strong>Tjänster</strong></h2>
         <ul>
-          <li><a href="#tjanster">Hemstädning</a></li>
-          <li><a href="#tjanster">Storstädning</a></li>
-          <li><a href="#tjanster">Flyttstädning</a></li>
-          <li><a href="#tjanster">Fönsterputs</a></li>
-          <li><a href="#tjanster">Kontors- &amp; arbetsplatsstäd</a></li>
-          <li><a href="#tjanster">Byggstädning</a></li>
-          <li><a href="#tjanster">Utcheckningsstäd Airbnb</a></li>
+          <li><a href="/services/hemstad">Hemstädning</a></li>
+          <li><a href="/services/storstad">Storstädning</a></li>
+          <li><a href="/services/flyttstad">Flyttstädning</a></li>
+          <li><a href="/services/fonsterputs">Fönsterputs</a></li>
+          <li><a href="/services/kontorstad">Kontors- &amp; arbetsplatsstäd</a></li>
+          <li><a href="/services/byggstad">Byggstädning</a></li>
+          <li><a href="/services/airbnb">Utcheckningsstäd Airbnb</a></li>
         </ul>
       </div>
 
       <div className="footer-column footer-company">
         <h2><strong>Företaget</strong></h2>
         <ul>
-          <li><a href="#om-oss">Om oss</a></li>
-          <li><a href="#galleri">Galleri</a></li>
-          <li><a href="/jobba-har">Jobba här</a></li>
-          <li><a href="#kontakt">Kontakta oss</a></li>
-          <li><a href="#tjanster">Tjänster</a></li>
+          <li><a href="/about">Om oss</a></li>
+          <li><a href="/gallery">Galleri</a></li>
+          <li><a href="/work">Jobba här</a></li>
+          <li><a href="/contact">Kontakta oss</a></li>
+          <li><a href="/services">Tjänster</a></li>
           <li><a href="/integrity">Integritetspolicy</a></li>
         </ul>
       </div>
