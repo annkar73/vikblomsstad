@@ -1,4 +1,4 @@
-import Link from "next/link";
+{/* import Link from "next/link"; */}
 
 export default function ContactPage() {
   return (
@@ -100,7 +100,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
+{/*
       <section className="contact section" id="kontaktformular">
         <div className="container contact-panel">
           <div className="contact-copy">
@@ -227,7 +227,7 @@ export default function ContactPage() {
           </form>
         </div>
       </section>
-
+*/}
       <section className="service-area-section section">
         <div className="container service-area-panel">
           <div>

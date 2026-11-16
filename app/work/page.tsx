@@ -120,6 +120,7 @@ export default function WorkPage() {
             <p>
               Vi tar gärna emot din ansökan och hör av oss när vi
               behöver förstärkning.
+             
             </p>
           </div>
 
@@ -128,7 +129,9 @@ export default function WorkPage() {
               <span>1</span>
               <h3>Berätta om dig</h3>
               <p>
-                Fyll i dina kontaktuppgifter och berätta lite om dig
+                Skicka ett mail med dina kontaktuppgifter till <a className="eyebrow" href="mailto:emelie.vikblom@gmail.com">
+                  emelie.vikblom@gmail.com
+                </a> och berätta lite om dig
                 själv och din erfarenhet.
               </p>
             </article>
@@ -153,7 +156,7 @@ export default function WorkPage() {
           </div>
         </div>
       </section>
-
+{/*}
       <section className="contact section" id="ansokan">
         <div className="container contact-panel">
           <div className="contact-copy">
@@ -241,6 +244,8 @@ export default function WorkPage() {
           </form>
         </div>
       </section>
+ */}
+
     </main>
   );
 }
