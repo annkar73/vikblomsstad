@@ -58,7 +58,7 @@ export default function FonsterputsPage() {
         <div className="container about-grid">
           <div className="about-visual">
             <div
-              className="about-photo"
+              className="about-photo about-fonsterputs-info"
               role="img"
               aria-label="Bild som illustrerar tjänsten"
             />

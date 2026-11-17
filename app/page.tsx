@@ -136,9 +136,8 @@ export default function Home() {
           <article className="now-area-content">
             <h4><strong>Måndag - Fredag:</strong> 09.00 - 17.00</h4>
             <h4><strong>Lördag:</strong> 10.00 - 13.00</h4>
-            <h4><strong>Söndag:</strong> Stängt</h4>
+            <h4><strong>Söndag:</strong> <span className="pink-text uppercase-text">Stängt</span></h4>
            
-            <hr></hr>
           </article>
 
           <div>
@@ -202,62 +201,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* om oss */}
-      <section className="about section" id="om-oss">
-        <div className="container about-grid">
-          <div className="about-visual">
-            <div
-              className="about-photo"
-              role="img"
-              aria-label="Vikblom Städs arbete med att skapa rena och trivsamma miljöer"
-            />
-          </div>
-
-          <div className="about-copy">
-            <span className="eyebrow">OM OSS</span>
-
-            <h2>Ett litet städföretag med stort engagemang</h2>
-
-            <p>
-              Vikblom Städ AB drivs av Emelie Vikblom med utgångspunkt i
-              Hallstavik. Målet är att förbättra både hem- och
-              arbetsplatsmiljöer och göra varje städuppdrag till en personlig
-              och givande upplevelse.
-            </p>
-
-            <blockquote className="about-quote">
-              Inför varje uppdrag lyssnar jag på dina önskemål, och tillsammans
-              formar vi din beställning.
-            </blockquote>
-
-            <p>
-              Vid större uppdrag med fönsterputs samarbetar företaget med
-              Helene. Då kommer vi två: en putsar fönstren, den andra städar.
-            </p>
-
-            <div className="about-facts">
-              <article className="about-fact">
-                <strong>Hallstavik</strong>
-                <span>Utgångspunkt</span>
-              </article>
-
-              <article className="about-fact">
-                <strong>F-skatt</strong>
-                <span>Godkänt företag</span>
-              </article>
-
-              <article className="about-fact">
-                <strong>RUT-avdrag</strong>
-                <span>Direkt på fakturan</span>
-              </article>
-            </div>
-
-            <a className="button button-outline" href="/about">
-              Läs mer om oss
-            </a>
-          </div>
-        </div>
-      </section>
 
       {/* prispanel */}
 

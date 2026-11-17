@@ -516,6 +516,12 @@ p {
 .italic-text {
   font-style: italic;
 }
+.pink-text {
+  color: var(--pink);
+}
+.uppercase-text {
+  text-transform: uppercase;
+}
 
 /* ========================================
    SERVICES
@@ -833,6 +839,10 @@ p {
   background-position: center;
   border-radius: 0 25px 25px 25px;
 }
+.about-fonsterputs-info {
+  background-image: url("/images/fonsterputs2.jpg");
+}
+
 .about-photo-clean {
   min-height: 490px;
   background-color: var(--white);
