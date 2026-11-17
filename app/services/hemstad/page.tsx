@@ -70,6 +70,7 @@ export default function HemstadPage() {
             <h2>Ett hem som känns städat, varje gång</h2>
             <p>Inför varje nytt uppdrag gör vi ett hembesök. Tillsammans går vi igenom vad du vill ha hjälp med och formar din beställning så att städningen passar just ditt hem och din vardag.</p>
             <p>Som privatperson får du RUT-avdrag på 50% av arbetskostnaden, och vi gör avdraget direkt på fakturan. Under maj till oktober kan du även beställa fönsterputsning.</p>
+            <p className="italic-text">Många av våra kunder väljer en <a href="/services/storstad" className="inline-link">storstädning</a> som komplement till sin hemstädning någon eller några gånger om året.</p>
           </div>
 
 
@@ -122,13 +123,13 @@ export default function HemstadPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss för bokning
             </h3>
 
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>

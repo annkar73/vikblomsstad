@@ -129,7 +129,7 @@ export default function KontorstadPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt besök
+              Kontakta oss för bokning
             </h3>
 
             <p>

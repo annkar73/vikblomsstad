@@ -94,7 +94,7 @@ export default function AirbnbPage() {
              <ul className="hero-note">
               <li>
                 <span className="note-check" aria-hidden="true">✓</span>
-                Dammning och dammsugning av alla rum
+                Damning och dammsugning av alla rum
               </li>
               <li><span className="note-check" aria-hidden="true">✓</span>Torkning av golv</li>
               <li><span className="note-check" aria-hidden="true">✓</span>Kök: diskho, spis, ytor och vitvaror utvändigt</li>
@@ -120,7 +120,7 @@ export default function AirbnbPage() {
             </span>
 
             <h3>
-              Kontakta oss
+              Kontakta oss för bokning
             </h3>
 
             <p>

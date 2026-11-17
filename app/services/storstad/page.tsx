@@ -20,11 +20,14 @@ export default function StorstadPage() {
 
             <p className="hero-description">
              Storstädning är hemstädningens grundligare syskon. Det ingår mer städning i varje rum, och vi är lyhörda för dina önskemål om vad som ska prioriteras. 
+             <br></br>
+             Många av våra kunder väljer en storstädning som komplement till sin hemstädning någon eller några gånger om året.
             </p>
+            
 
             <div className="hero-actions">
               <Link className="button" href="/contact">
-                Boka kostnadsfritt hembesök
+                Boka konstnadsfritt hembesök
               </Link>
 
               <Link
@@ -61,6 +64,7 @@ export default function StorstadPage() {
             <h2>Vad skiljer storstädning från hemstädning?</h2>
             <p>I en storstädning ingår mer i varje rum. I köket kan du beställa ugnsrengöring, i vardagsrmmet dammsugning av klädda möbler och rengöring av lister och i sovrummet bäddning. Det gör att en storstädning i regel tar längre tid än en hemstädning.</p>
             <p>Vi har med oss allt städmaterial, inklusive dammsugare. Inför uppdraget gör vi ett kostnadsfritt hembesök och lägger upp en plan tillsammans med dig.</p>
+            
           </div>
 
           <div className="booking-card service-navy">
@@ -69,13 +73,13 @@ export default function StorstadPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss för bokning
             </h3>
 
             <p>
               Vi ser över bostaden tillsammans och du får ett tydligt pris, utan förpliktelser.
             </p>
-            <div><Link className="button" href="/contact">Boka hembesök</Link></div>
+            <div><Link className="button" href="/contact">Kontakta oss</Link></div>
             <br></br>
             <div><Link className="button button-outline-invert" href="tel:+46736325235">Ring 073-632 52 35</Link></div>
             <p>

@@ -129,7 +129,7 @@ export default function FonsterputsPage() {
             </span>
 
             <h3>
-              Boka kostnadsfritt hembesök
+              Kontakta oss för bokning
             </h3>
 
             <p>

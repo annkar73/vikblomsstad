@@ -53,6 +53,11 @@ a {
 p {
   font-size: 14px;
 }
+
+.inline-link {
+  font-weight: 700;
+  text-transform: uppercase;
+}
 /* ========================================
    TOP AND NAVIGATION
    ======================================== */
