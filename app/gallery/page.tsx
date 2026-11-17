@@ -132,7 +132,7 @@ export default function GalleryPage() {
               önskemål.
             </p>
 
-            <Link className="button button-outline" href="/services/hemstad">
+            <Link className="button button-outline" href="/services">
               Läs om våra tjänster
             </Link>
           </div>

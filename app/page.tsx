@@ -97,7 +97,7 @@ export default function Home() {
             <span aria-hidden="true">✓</span>
             <div>
               <h3>Nöjd kund-garanti 24 h</h3>
-              <p>Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
+              <p>Efter utfört uppdrag gör vi en slutbesiktning tillsammans med dig som kund. <br></br>Blev något inte bra? Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
             </div>
           </article>
 
