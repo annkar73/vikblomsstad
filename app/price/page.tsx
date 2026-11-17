@@ -8,7 +8,6 @@ export default function PricePage() {
             <div className="price-info">
               <span className="eyebrow">prislista</span>
               <h2>Våra priser</h2>
-
               <p>
                 Vi erbjuder konkurrenskraftiga priser för våra städtjänster. Nedan hittar du en översikt över våra priser för olika typer av städning.<br></br> Kontakta oss gärna för en mer detaljerad offert eller om du har några frågor.
               </p>
