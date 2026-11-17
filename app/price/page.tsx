@@ -3,6 +3,7 @@ export default function PricePage() {
     <main>
       {/* info about services */}
       <section className="price-section">
+<div className="price-container">
         <article className="price-panel">
             <div className="price-info">
               <span className="eyebrow">prislista</span>
@@ -32,6 +33,7 @@ export default function PricePage() {
             <p>{/* info och prislista */} priser för utcheckningsstädning</p>
           </div>
           </article>
+</div>
       </section>
     </main>
   );
