@@ -76,6 +76,7 @@ export default function Footer() {
           </li>
           <li>Org.nr 559266-2224</li>
           <li>Swish: 123 581 20 03</li>
+          <li>Bankgiro: 5524-8892</li>
           <li>Godkänd för F-skatt</li>
         </ul>
       </div>
