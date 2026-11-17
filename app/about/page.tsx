@@ -215,9 +215,8 @@ export default function AboutPage() {
         <span className="eyebrow">BETALNING</span>
         <h3>Faktura och betalning</h3>
         <p>
-          Vi erbjuder två betalningssätt: betala fakturan via bankgiro
-          eller swisha till 123 581 20 03. Ange fakturanummer vid
-          betalning.
+          Vi erbjuder två betalningssätt: betala fakturan via Bankgiro
+          eller Swish. Ange fakturanummer vid betalning.
           <br />
           Företaget är godkänt för F-skatt.
         </p>

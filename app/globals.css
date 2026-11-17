@@ -1413,7 +1413,14 @@ p {
   font-weight: 600;
   line-height: 1.2;
 }
-
+.now-area-content h4 {
+  margin: 0 0 6px;
+  color: var(--navy);
+  font-family: var(--font-quicksand), sans-serif;
+  font-size: clamp(18px, 2.5vw, 24px);
+  font-weight: 600;
+  line-height: 1.2;
+}
 .now-area-content p {
   margin: 0;
   color: var(--navy);

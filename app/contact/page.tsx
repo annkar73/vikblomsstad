@@ -298,8 +298,8 @@ export default function ContactPage() {
             <article className="process-card">
               <h3>Hur betalar jag?</h3>
               <p>
-                Du kan betala fakturan via bankgiro eller swisha till
-                123 581 20 03. Ange fakturanummer vid betalning.
+                Du kan betala fakturan via Bankgiro eller Swish. 
+                <br></br>Ange fakturanummer vid betalning.
               </p>
             </article>
 

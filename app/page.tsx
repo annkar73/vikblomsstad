@@ -130,20 +130,31 @@ export default function Home() {
 
       <section className="now-area-section section">
         <div className="container now-area-panel">
+            <div>
+            <span className="eyebrow">ÖPPETTIDER</span>
+          </div>
+          <article className="now-area-content">
+            <h4><strong>Måndag - Fredag:</strong> 09.00 - 17.00</h4>
+            <h4><strong>Lördag:</strong> 10.00 - 13.00</h4>
+            <h4><strong>Söndag:</strong> Stängt</h4>
+           
+            <hr></hr>
+          </article>
+
           <div>
             <span className="eyebrow">AKTUELLT JUST NU</span>
           </div>
           <article className="now-area-content">
             <h3>Fönsterputsning</h3>
             <p>
-              Säsongen för fönsterputsning är över för i år. Fönsterputs är bokbart mellan maj och oktober.
+              Säsongen för fönsterputsning är avslutad för i år. Men passa istället på att frosta av frysen. Om du vill ha hjälp med detta, hör gärna av dig till oss.
             </p>
             <hr></hr>
           </article>
           <article className="now-area-content">
             <h3>Lugn inför julen</h3>
             <p>
-              Passa på att boka hemstädning inför julen, så kan ni ägna er åt andra förberedelser inför firande med familj och vänner. 
+              Passa på att boka hemstädning inför julen, så kan ni ägna er åt andra förberedelser inför firande med familj och vänner. Än finns det några tider kvar att boka inför jul.
               
             </p>
           </article>
