@@ -271,6 +271,7 @@ p {
   font-weight: 800;
   letter-spacing: 0.16em;
   line-height: 1.6;
+  text-transform: uppercase;
 }
 
 .eyebrow-dot {
@@ -502,6 +503,13 @@ p {
   color: var(--muted);
   font-size: 14px;
   line-height: 1.9;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+.italic-text {
+  font-style: italic;
 }
 
 /* ========================================
@@ -1503,6 +1511,7 @@ p {
   gap: 40px;
   padding: 55px 60px;
   background: var(--light-pink);
+  margin-top: 15px;
 }
 
 .contact-copy h2 {

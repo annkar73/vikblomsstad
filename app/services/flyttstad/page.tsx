@@ -165,6 +165,7 @@ export default function FlyttstadPage() {
                 </li>
               </ul>
             </article>
+
             <article className="process-card">
               <h3>Kök</h3>
               <ul className="hero-note">
@@ -220,6 +221,7 @@ export default function FlyttstadPage() {
                 </li>
               </ul>
             </article>
+
             <article className="process-card">
               <h3>Badrum och toalett</h3>
               <ul className="hero-note">
@@ -318,38 +320,47 @@ export default function FlyttstadPage() {
           </article>
         </section>
       </section>
+
       <section className="section">
         <div className="container contact-panel">
           <div className="section-heading">
             <div>
-              <h2>Att tänka på innan vi kommer</h2>
+                <span className="eyebrow">Innan vi kommer</span>
+                <br></br>
+              <p className="margin-top">
+                För att vi ska kunna utföra arbetet på bästa möjliga sätt och
+                lämna ett skinande rent resultat vill vi be dig tänka på
+                följande punkter innan vi kommer:
+              </p>
+              <br></br>
               <div>
                 <p>
+                  <strong>Möbler och tillhörigheter: </strong> Bostaden ska vara tom på möbler och lösa föremål på städdagen, om inte annat har avtalats.
+                </p>
+                <p>
                   <strong>
-                    Vi tar inte ansvar för fläckar på väggar med tapet.{" "}
-                  </strong>
-                  Dessa dammtorkas endast p.g.a risken för skador på ytskiktet.
+                    Väggar med tapet: </strong> Vi tar inte ansvar för fläckar på tapetserade väggar. Dessa dammtorkas endast på grund av risken för skador på ytskiktet.
                 </p>
                 <p>
-                  <strong>Avfrosta kyl och frys. </strong>
-                  De ska vara tömda, avfrostade och avstängda på städdagen.
+                  <strong>Kyl och frys: </strong>
+                  Dessa ska vara tömda, avfrostade och avstängda på städdagen.
                 </p>
                 <p>
-                  <strong>Vitvaror ska vara framdragna </strong>
-                  om det ska städas bakom. Dessa ställs tillbaka av kunden.
+                  <strong>Vitvaror: </strong> Vitvaror ska vara framdragna om det ska städas bakom dem. Observera att dessa ställs tillbaka av dig som kund.
                 </p>
                 <p>
-                  <strong>Ugnsluckans glas </strong>
-                  monteras isär och tillbaka av dig som kund.
+                  <strong>Ugnslucka: </strong> Glaset i ugnsluckan monteras isär och sätts tillbaka av dig som kund.
+                </p>
+                <p><strong>Fönsterputs:</strong> På grund av kyla under höst- och vinterhalvåret putsar vi enbart in- och utsidan av fönster under den här säsongen. Putsar man mellan rutorna i kylan blir det flammigt.</p>
+                <p>
+                  <strong>Inomhustemperatur: </strong> Det behöver vara minst 19 grader inomhus vid städtillfället, av hänsyn till vår hälsa.
                 </p>
                 <p>
-                  <strong>På grund av kyla </strong>
-                  under höst- och vinterhalvåret putsar vi enbart insida av
-                  fönster under den säsongen.
+                  <strong>Ljus/el: </strong> Se till att det finns tillgång till el och ljuskällor. Meddela oss om vi behöver ta med extra lampa.
                 </p>
-                <p>
-                  <strong>Minst 19 grader inomhus </strong>
-                  vid städtillfället, av hänsyn till vår hälsa.
+                <br></br>
+                <p className="italic-text">
+                  Tveka inte att höra av dig om du har några funderingar kring detta.
                 </p>
               </div>
             </div>
