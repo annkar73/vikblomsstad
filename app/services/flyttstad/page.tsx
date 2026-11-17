@@ -64,7 +64,7 @@ export default function FlyttstadPage() {
               kök och badrum, och vi har med oss allt material som behövs.
             </p>
             <p>
-              Vi utför alltid flyttstädningen till ett fast pris, så du vet
+              Vi utför alltid flyttstädningen till ett fast pris, <span className="italic-text">i dagsläget 50 kr per kvadratmeter</span>, så du vet
               exakt vad det kostar.{" "}
             </p>
             <p>
@@ -310,10 +310,10 @@ export default function FlyttstadPage() {
             </ul>
             <div>
               <br></br>
-              <p>
+              <p className="uppercase-text">
                 <strong>
                   Vill du beställa till dessa tjänster tillkommer en extra
-                  avgift på 275 kr
+                  avgift på 275 kr per tjänst
                 </strong>
               </p>
             </div>
@@ -359,8 +359,8 @@ export default function FlyttstadPage() {
                   <strong>Ljus/el: </strong> Se till att det finns tillgång till el och ljuskällor. Meddela oss om vi behöver ta med extra lampa.
                 </p>
                 <br></br>
-                <p className="italic-text">
-                  Tveka inte att höra av dig om du har några funderingar kring detta.
+                <p className="uppercase-text"><strong>
+                  Tveka inte att höra av dig om du har några funderingar kring detta.</strong>
                 </p>
               </div>
             </div>
