@@ -129,10 +129,10 @@ export default function WorkPage() {
               <span>1</span>
               <h3>Berätta om dig</h3>
               <p>
-                Skicka ett mail med dina kontaktuppgifter till <a className="eyebrow" href="mailto:emelie.vikblom@gmail.com">
+                Skicka ett mail med dina kontaktuppgifter till <a className="pink-text" href="mailto:emelie.vikblom@gmail.com"><strong>
                   emelie.vikblom@gmail.com
-                </a> och berätta lite om dig
-                själv och din erfarenhet.
+                  </strong>
+                </a> och berätta lite om dig själv och din erfarenhet.
               </p>
             </article>
 

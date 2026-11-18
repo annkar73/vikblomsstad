@@ -61,22 +61,19 @@ export default function Header() {
 <div className="nav-dropdown">
   <div className="nav-dropdown-header">
     <Link href="/services" onClick={closeMenu}>
-      Tjänster
+      Tjänster {" "}
     </Link>
 
-    <button
-      type="button"
-      className="nav-dropdown-toggle"
-      aria-label={servicesOpen ? "Stäng tjänstemenyn" : "Visa tjänster"}
-      aria-expanded={servicesOpen}
-      aria-controls="services-menu"
-      onClick={() => setServicesOpen((open) => !open)}
-    >
-      <span aria-hidden="true">
-        {servicesOpen ? "⌃" : "⌄"}
-      </span>
-    </button>
-  </div>
+<button
+  type="button"
+  className={`nav-dropdown-toggle ${servicesOpen ? "is-open" : ""}`}
+  aria-label={servicesOpen ? "Stäng tjänstemenyn" : "Visa tjänster"}
+  aria-expanded={servicesOpen}
+  aria-controls="services-menu"
+  onClick={() => setServicesOpen((open) => !open)}
+>
+  <span className="nav-chevron" aria-hidden="true" />
+</button>  </div>
 
   {servicesOpen && (
     <div className="nav-dropdown-menu" id="services-menu">
