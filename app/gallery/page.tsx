@@ -1,5 +1,6 @@
 import Link from "next/link";
 import AutoCarousel from "../components/gallery/AutoCarousel";
+import ManualCarousel from "../components/gallery/ManualCarousel";
 
 const outdoorImages = [
   {
@@ -14,19 +15,37 @@ const outdoorImages = [
     src: "/images/vikblom-stad-plattor-fore2.jpg",
     alt: "Plattor före rengöring",
   },
-    {
+  {
     src: "/images/vikblom-stad-plattor-efter2.jpg",
     alt: "Plattor efter rengöring",
   },
-      {
+  {
     src: "/images/vikblom-stad-utomhus-plattor-rotated.jpg",
     alt: "Plattor efter rengöring",
   },
-    {
+  {
     src: "/images/vikblom-stad-utomhus-ved.jpg",
     alt: "Vedhantering",
   },
+];
 
+const indoorImages = [
+  {
+    src: "/images/vikblom-stad-baddas.jpg",
+    alt: "Nybäddad säng",
+  },
+  {
+    src: "/images/vikblom-stad-baddas-dubbel.jpg",
+    alt: "Nybäddad säng",
+  },
+  {
+    src: "/images/vikblom-stad-flyttstad.jpg",
+    alt: "Nystädat rum",
+  },
+    {
+    src: "/images/vikblom-stad-hemstadning-golv-1024x576.jpg",
+    alt: "Blanka nystädade golv",
+  },
 
 ];
 
@@ -49,9 +68,9 @@ export default function GalleryPage() {
             </h1>
 
             <p className="hero-description">
-              Här kan du se exempel på Vikblom Städs arbete. Vi hjälper
-              både hem och arbetsplatser med städning som anpassas efter
-              uppdraget och dina önskemål.
+              Här kan du se exempel på Vikblom Städs arbete. Vi hjälper både hem
+              och arbetsplatser med städning som anpassas efter uppdraget och
+              dina önskemål.
             </p>
 
             <div className="hero-actions">
@@ -59,10 +78,7 @@ export default function GalleryPage() {
                 Kontakta oss
               </Link>
 
-              <a
-                className="button button-outline"
-                href="tel:+46736325235"
-              >
+              <a className="button button-outline" href="tel:+46736325235">
                 Ring 073-632 52 35
               </a>
             </div>
@@ -89,7 +105,9 @@ export default function GalleryPage() {
 
         <div className="container hero-bottom">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
-          <a href="#vara-uppdrag" aria-label="Se våra uppdrag">↓</a>
+          <a href="#vara-uppdrag" aria-label="Se våra uppdrag">
+            ↓
+          </a>
         </div>
       </section>
 
@@ -102,12 +120,13 @@ export default function GalleryPage() {
             </div>
 
             <p>
-              Här samlar vi bilder från olika typer av uppdrag, från
-              hemstädning till byggstädning.
+              Här samlar vi bilder från olika typer av uppdrag, från hemstädning
+              till byggstädning.
             </p>
           </div>
-
-<AutoCarousel images={outdoorImages} />        </div>
+          <AutoCarousel images={outdoorImages} />{" "}
+          <ManualCarousel  images={indoorImages}  label="Inomhusuppdrag"/>
+        </div>
       </section>
 
       <section className="service-area-section section">
@@ -119,10 +138,9 @@ export default function GalleryPage() {
 
           <div>
             <p>
-              Behöver du hjälp med hemstädning, flyttstädning,
-              fönsterputs eller någon av våra andra tjänster? Vi går
-              igenom uppdraget tillsammans och planerar utifrån dina
-              önskemål.
+              Behöver du hjälp med hemstädning, flyttstädning, fönsterputs eller
+              någon av våra andra tjänster? Vi går igenom uppdraget tillsammans
+              och planerar utifrån dina önskemål.
             </p>
 
             <Link className="button button-outline" href="/services">
@@ -138,8 +156,8 @@ export default function GalleryPage() {
             <span className="eyebrow">NÄSTA STEG</span>
             <h2>Har du ett uppdrag åt oss?</h2>
             <p>
-              Kontakta oss för att berätta vad du behöver hjälp med
-              eller boka ett kostnadsfritt hembesök.
+              Kontakta oss för att berätta vad du behöver hjälp med eller boka
+              ett kostnadsfritt hembesök.
             </p>
           </div>
 
@@ -148,10 +166,7 @@ export default function GalleryPage() {
               Kontakta oss
             </Link>
 
-            <a
-              className="contact-email"
-              href="mailto:emelie.vikblom@gmail.com"
-            >
+            <a className="contact-email" href="mailto:emelie.vikblom@gmail.com">
               emelie.vikblom@gmail.com
             </a>
 
