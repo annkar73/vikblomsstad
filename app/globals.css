@@ -727,9 +727,9 @@ p {
   font-size: 20px;
 }
 
-.trust-grid h3 {
+.trust-grid h2 {
   margin: 2px 0 6px;
-  color: var(--navy);
+  color: var(--navy) !important;
   font-size: 14px;
   font-weight: 700;
 }

@@ -85,7 +85,7 @@ export default function Home() {
           <article>
             <span aria-hidden="true">%</span>
             <div>
-              <h3>RUT-avdrag på fakturan</h3>
+              <h2>RUT-avdrag på fakturan</h2>
               <p>
                 Du kan få upp till 50 % av arbetskostnaden i RUT-avdrag. Vi drar
                 av det direkt på fakturan.
@@ -96,15 +96,15 @@ export default function Home() {
           <article>
             <span aria-hidden="true">✓</span>
             <div>
-              <h3>Nöjd kund-garanti 24 h</h3>
-              <p>Efter utfört uppdrag gör vi en slutbesiktning tillsammans med dig som kund. <br></br>Blev något inte bra? Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
+              <h2>Nöjd kund-garanti 24 h</h2>
+              <p>Efter utfört uppdrag gör vi en slutbesiktning tillsammans med dig som kund. <br />Blev något inte bra? Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
             </div>
           </article>
 
           <article>
             <span aria-hidden="true">✳</span>
             <div>
-              <h3>Allt material ingår</h3>
+              <h2>Allt material ingår</h2>
               <p>Vi har med oss städmaterial och dammsugare.</p>
             </div>
           </article>
@@ -112,7 +112,7 @@ export default function Home() {
           <article>
             <span aria-hidden="true">⌖</span>
             <div>
-              <h3>Lokalt i Roslagen</h3>
+              <h2>Lokalt i Roslagen</h2>
               <p>
                 Hallstavik, Älmsta, Väddö, Grisslehamn, Singö och Skebobruk.
               </p>
@@ -120,6 +120,7 @@ export default function Home() {
           </article>
         </div>
         <br></br>
+
         <div className="hero-bottom container">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
           <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
@@ -134,9 +135,9 @@ export default function Home() {
             <span className="eyebrow">ÖPPETTIDER</span>
           </div>
           <article className="now-area-content">
-            <h4><strong>Måndag - Fredag:</strong> 09.00 - 17.00</h4>
-            <h4><strong>Lördag:</strong> 10.00 - 13.00</h4>
-            <h4><strong>Söndag:</strong> <span className="pink-text uppercase-text">Stängt</span></h4>
+            <h3><strong>Måndag - Fredag:</strong> 09.00 - 17.00</h3>
+            <h3><strong>Lördag:</strong> 10.00 - 13.00</h3>
+            <h3><strong>Söndag:</strong> <span className="pink-text uppercase-text">Stängt</span></h3>
            
           </article>
 
