@@ -111,23 +111,52 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      <section className="gallery-section section" id="vara-uppdrag">
-        <div className="container">
-          <div className="section-heading">
-            <div>
-              <span className="eyebrow">VÅRA UPPDRAG</span>
-              <h2>En titt på vårt arbete</h2>
-            </div>
 
-            <p>
-              Här samlar vi bilder från olika typer av uppdrag, från hemstädning
-              till byggstädning.
-            </p>
-          </div>
-          <AutoCarousel images={outdoorImages} />{" "}
-          <ManualCarousel  images={indoorImages}  label="Inomhusuppdrag"/>
-        </div>
-      </section>
+<section className="gallery-section section" id="vara-uppdrag">
+  <div className="container">
+    <div className="section-heading gallery-intro">
+      <div>
+        <span className="eyebrow">VÅRA UPPDRAG</span>
+        <h2>Arbete med omtanke och känsla för detaljer</h2>
+      </div>
+
+      <p>
+        Här får du se några exempel på arbeten som vi har utfört.
+        Varje uppdrag är unikt och anpassas efter kundens behov
+        och önskemål.
+      </p>
+    </div>
+
+    <div className="gallery-work-section">
+      <div className="gallery-section-heading">
+        <span className="eyebrow">UTOMHUS</span>
+        <h3>Rent och fint omkring dig</h3>
+        <p>
+          Från rengöring av uteplatser till andra arbeten som
+          gör utemiljön trevligare.
+        </p>
+      </div>
+
+      <AutoCarousel images={outdoorImages} />
+    </div>
+
+    <div className="gallery-work-section">
+      <div className="gallery-section-heading">
+        <span className="eyebrow">INOMHUS</span>
+        <h3>Städning med omsorg om detaljerna</h3>
+        <p>
+          Se exempel på städning och resultat från våra uppdrag
+          i hem och andra inomhusmiljöer.
+        </p>
+      </div>
+
+      <ManualCarousel
+        images={indoorImages}
+        label="Inomhusuppdrag"
+      />
+    </div>
+  </div>
+</section>
 
       <section className="service-area-section section">
         <div className="container service-area-panel">

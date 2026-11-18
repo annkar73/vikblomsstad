@@ -1433,6 +1433,41 @@ p {
   font-weight: 500;
 }
 
+.gallery-intro {
+  margin-bottom: 64px;
+}
+
+.gallery-work-section {
+  margin-top: 56px;
+}
+
+.gallery-section-heading {
+  max-width: 650px;
+  margin-bottom: 12px;
+}
+
+.gallery-section-heading h3 {
+  color: var(--navy);
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  margin: 8px 0 12px;
+}
+
+.gallery-section-heading p {
+  color: var(--muted);
+  line-height: 1.7;
+  max-width: 580px;
+}
+
+@media (max-width: 640px) {
+  .gallery-intro {
+    margin-bottom: 40px;
+  }
+
+  .gallery-work-section {
+    margin-top: 40px;
+  }
+}
+
 /* auto carousel*/
 
 .auto-carousel {
