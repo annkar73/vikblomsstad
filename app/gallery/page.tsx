@@ -106,7 +106,7 @@ export default function GalleryPage() {
         <div className="container hero-bottom">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
           <a href="#vara-uppdrag" aria-label="Se våra uppdrag">
-            ↓
+            
           </a>
         </div>
       </section>
