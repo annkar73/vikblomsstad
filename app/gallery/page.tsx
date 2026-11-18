@@ -1,4 +1,34 @@
 import Link from "next/link";
+import AutoCarousel from "../components/gallery/AutoCarousel";
+
+const outdoorImages = [
+  {
+    src: "/images/vikblom-stad-plattor-fore1.jpg",
+    alt: "Plattor före rengöring",
+  },
+  {
+    src: "/images/vikblom-stad-plattor-efter1.jpg",
+    alt: "Plattor efter rengöring",
+  },
+  {
+    src: "/images/vikblom-stad-plattor-fore2.jpg",
+    alt: "Plattor före rengöring",
+  },
+    {
+    src: "/images/vikblom-stad-plattor-efter2.jpg",
+    alt: "Plattor efter rengöring",
+  },
+      {
+    src: "/images/vikblom-stad-utomhus-plattor-rotated.jpg",
+    alt: "Plattor efter rengöring",
+  },
+    {
+    src: "/images/vikblom-stad-utomhus-ved.jpg",
+    alt: "Vedhantering",
+  },
+
+
+];
 
 export default function GalleryPage() {
   return (
@@ -77,44 +107,7 @@ export default function GalleryPage() {
             </p>
           </div>
 
-          <div className="gallery-grid">
-            <article className="gallery-card">
-              <div
-                className="gallery-photo gallery-photo-one"
-                role="img"
-                aria-label="Exempel på byggstädning"
-              />
-              <div className="gallery-caption">
-                <span>VÅRA TJÄNSTER</span>
-                <h3>Byggstädning</h3>
-              </div>
-            </article>
-
-            <article className="gallery-card">
-              <div
-                className="gallery-photo gallery-photo-two"
-                role="img"
-                aria-label="Exempel på hemstädning"
-              />
-              <div className="gallery-caption">
-                <span>HEM OCH VARDAG</span>
-                <h3>Hemstädning</h3>
-              </div>
-            </article>
-
-            <article className="gallery-card">
-              <div
-                className="gallery-photo gallery-photo-three"
-                role="img"
-                aria-label="Exempel på utomhusuppdrag"
-              />
-              <div className="gallery-caption">
-                <span>OLIKA UPPDRAG</span>
-                <h3>Utomhusuppdrag</h3>
-              </div>
-            </article>
-          </div>
-        </div>
+<AutoCarousel images={outdoorImages} />        </div>
       </section>
 
       <section className="service-area-section section">
