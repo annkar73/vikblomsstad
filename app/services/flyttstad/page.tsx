@@ -58,13 +58,14 @@ export default function FlyttstadPage() {
               en hyresvärd, en bostadsrättsförening eller om det är du som kund
               som granskar.
             </p>
+            <p>Om du inte har möjlighet att ta emot ett hembesök ser vi gärna att du skickar bilder av kök, badrum och eventuella trägolv i bostaden så vi vet om vi behöver använda speciella metoder för att ytorna inte ska bli skadade. </p>
             <p>
               {" "}
               Vi följer en fast checklista (se nedan) som täcker samtliga rum,
               kök och badrum, och vi har med oss allt material som behövs.
             </p>
             <p>
-              Vi utför alltid flyttstädningen till ett fast pris, <span className="italic-text">i dagsläget 50 kr per kvadratmeter</span>, så du vet
+              Vi utför alltid flyttstädningen till ett fast pris,  så du vet
               exakt vad det kostar.{" "}
             </p>
             <p>
