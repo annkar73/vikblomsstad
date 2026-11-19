@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
@@ -322,7 +323,7 @@ export default function Home() {
                 aria-label="Exempel på byggstädning"
               />
               <div className="gallery-caption">
-                <span>FEBRUARI 2026</span>
+                <span className="eyebrow">inomhus</span>
                 <h3>Byggstädning</h3>
               </div>
             </article>
@@ -333,7 +334,7 @@ export default function Home() {
                 aria-label="Exempel på hemstädning"
               />
               <div className="gallery-caption">
-                <span>HEM OCH VARDAG</span>
+                <span className="eyebrow">hem och vardag</span>
                 <h3>Hemstädning</h3>
               </div>
             </article>
@@ -344,11 +345,16 @@ export default function Home() {
                 aria-label="Exempel på utomhusuppdrag"
               />
               <div className="gallery-caption">
-                <span>JULI 2026</span>
-                <h3>Utomhusuppdrag</h3>
+                <span className="eyebrow">utomhus</span>
+                <h3>Städning av utemiljö</h3>
               </div>
             </article>
           </div>
+          <div className="gallery-more">
+  <Link href="/gallery" className="button button-outline">
+    Se mer av vårt arbete
+  </Link>
+</div>
         </div>
       </section>
       

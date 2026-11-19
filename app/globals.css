@@ -121,11 +121,13 @@ p {
   flex-shrink: 0;
   transition: background-color 200ms ease;
 }
-
-.nav-dropdown-toggle:hover {
+.nav-dropdown-toggle:hover,
+.nav-dropdown-toggle:active,
+.nav-dropdown-toggle.is-open {
+  background: transparent;
   color: var(--navy);
-  background: var(--light-pink);
 }
+
 
 .nav-chevron {
   width: 9px;
@@ -1432,11 +1434,16 @@ p {
 }
 
 .gallery-photo-two {
-  background-image: url("/images/vikblom-stad-hemstadning-golv-1024x576.jpg");
+  background-image: url("/images/vikblom-stad-hemstad.jpg");
 }
 
 .gallery-photo-three {
   background-image: url("/images/vikblom-stad-utomhus-plattor-rotated.jpg");
+}
+.gallery-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .gallery-caption {
@@ -1489,7 +1496,7 @@ p {
   }
 
   .gallery-work-section {
-    margin-top: 40px;
+    margin-top: 30px;
   }
 }
 
@@ -1497,7 +1504,7 @@ p {
 
 .auto-carousel {
   width: 100%;
-  padding: 24px 0;
+  padding: 5px 0;
 }
 
 .auto-carousel-stage {
@@ -1581,7 +1588,7 @@ transition:
 
 .manual-carousel {
   width: 100%;
-  padding: 24px 0;
+  padding: 5px 0;
 }
 
 .manual-carousel-stage {
