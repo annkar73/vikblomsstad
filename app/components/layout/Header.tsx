@@ -92,6 +92,10 @@ export default function Header() {
           <Link href="/gallery" onClick={closeMenu}>
             Galleri
           </Link>
+          <Link href="/price" onClick={closeMenu}>
+            Priser
+          </Link>
+
           <Link href="/work" onClick={closeMenu}>
             Jobba här
           </Link>
