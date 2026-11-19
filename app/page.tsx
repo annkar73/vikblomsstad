@@ -231,7 +231,7 @@ export default function Home() {
                     375 <span>kr/timme</span>
                   </p>
                 </article>
-
+                
                 <article className="price-card price-card-highlight window-price-card">
                   <span className="eyebrow">FÖNSTERPUTS</span>
 
