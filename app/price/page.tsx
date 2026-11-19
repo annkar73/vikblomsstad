@@ -43,7 +43,7 @@ export default function PricePage() {
                 Avdraget görs direkt på fakturan när villkoren är uppfyllda.
                 <br />
                 <a
-                  href="https://www.skatteverket.se/privat/fastigheterochbostad/rotarbeteochrutarbete"
+                  href="https://www.skatteverket.se/privat/fastigheterochbostad/rotarbeteochrutarbete/safungerarrutavdraget.4.d5e04db14b6fef2c866097.html"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

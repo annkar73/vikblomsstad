@@ -213,7 +213,7 @@ export default function Home() {
               <div className="section-heading">
                 <div>
                   <span className="eyebrow">PRISER</span>
-                  <h2>Tydliga timpriser, RUT redan avdraget</h2>
+                  <h2>Tydliga timpriser <br />RUT redan avdraget</h2>
                 </div>
               </div>
 
@@ -295,6 +295,13 @@ export default function Home() {
                   </span>
                 </li>
               </ul>
+               <a
+                  href="https://www.skatteverket.se/privat/fastigheterochbostad/rotarbeteochrutarbete/safungerarrutavdraget.4.d5e04db14b6fef2c866097.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Läs mer om RUT-avdrag hos <strong>Skatteverket</strong>
+                </a>
             </div>
           </div>
         </div>
