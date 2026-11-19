@@ -19,6 +19,11 @@ const outdoorImages = [
     src: "/images/vikblom-stad-plattor-efter2.jpg",
     alt: "Plattor efter rengöring",
   },
+    {
+    src: "/images/vikblom-stad-utomhus-plattor-rotated2.jpg",
+    alt: "Plattor före rengöring",
+  },
+
   {
     src: "/images/vikblom-stad-utomhus-plattor-rotated.jpg",
     alt: "Plattor efter rengöring",
@@ -27,25 +32,56 @@ const outdoorImages = [
     src: "/images/vikblom-stad-utomhus-ved.jpg",
     alt: "Vedhantering",
   },
+    {
+    src: "/images/vikblom-stad-utomhus-ved-2.jpg",
+    alt: "Vedhantering",
+  },
+
 ];
 
 const indoorImages = [
   {
     src: "/images/vikblom-stad-baddas.jpg",
     alt: "Nybäddad säng",
+    caption: "Nystädat rum med bäddad säng",
   },
   {
     src: "/images/vikblom-stad-baddas-dubbel.jpg",
     alt: "Nybäddad säng",
+    caption: "Nystädat rum med bäddad säng",
   },
   {
     src: "/images/vikblom-stad-flyttstad.jpg",
     alt: "Nystädat rum",
+    caption: "Nystädat rum med blanka golv",
   },
     {
     src: "/images/vikblom-stad-hemstadning-golv-1024x576.jpg",
     alt: "Blanka nystädade golv",
+    caption: "Blanka nystädade golv - varje gång",
   },
+      {
+    src: "/images/vikblom-stad-stad.jpg",
+    alt: "Nystädat rum",
+    caption: "Nystädat rum med blanka golv",
+  },
+        {
+    src: "/images/vikblom-stad-stad2.jpg",
+    alt: "Nystädat rum",
+    caption: "Rent och nystädat för en skön vardag",
+  },
+        {
+    src: "/images/vikblom-stad-badrum-fore1.jpg",
+    alt: "Handfat före städning",
+    caption: "Handfat - före städning"
+  },
+        {
+    src: "/images/vikblom-stad-badrum-efter1.jpg",
+    alt: "Handfat efter städning",
+    caption: "Handfat - efter städning"
+  },
+
+
 
 ];
 

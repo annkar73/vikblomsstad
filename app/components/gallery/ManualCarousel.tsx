@@ -7,6 +7,7 @@ import Image from "next/image";
 type CarouselImage = {
   src: string;
   alt: string;
+  caption?: string;
 };
 
 type ManualCarouselProps = {
@@ -60,6 +61,11 @@ export default function ManualCarousel({
                 sizes="(max-width: 640px) 78vw, 60vw"
                 priority={isActive}
               />
+                {isActive && image.caption && (
+                <p className="manual-carousel-caption" aria-live="polite">
+                  {image.caption}
+                </p>
+              )}
             </div>
           );
         })}
