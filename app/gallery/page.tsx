@@ -70,17 +70,17 @@ const indoorImages = [
     alt: "Nystädat rum",
     caption: "Nystädat rum med blanka golv",
   },
-        {
+  {
     src: "/images/vikblom-stad-stad2.jpg",
     alt: "Nystädat rum",
     caption: "Rent och nystädat för en skön vardag",
   },
-        {
+  {
     src: "/images/vikblom-stad-badrum-fore1.jpg",
     alt: "Handfat före städning",
     caption: "Handfat - före städning"
   },
-        {
+  {
     src: "/images/vikblom-stad-badrum-efter1.jpg",
     alt: "Handfat efter städning",
     caption: "Handfat - efter städning"
@@ -162,7 +162,7 @@ export default function GalleryPage() {
       </div>
 
       <p>
-        Här får du se några exempel på arbeten som vi har utfört.
+        Här kan du se några exempel på arbeten som vi har utfört.
         Varje uppdrag är unikt och anpassas efter kundens behov
         och önskemål.
       </p>
