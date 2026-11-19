@@ -549,6 +549,14 @@ p {
 .uppercase-text {
   text-transform: uppercase;
 }
+.side-border {
+  position: relative;
+  color: var(--navy);
+  padding-left: 1.5rem;
+  font-size: 14px;
+  border-left: 2px solid var(--pink);
+  margin: 1rem 0;
+}
 
 /* ========================================
    SERVICES

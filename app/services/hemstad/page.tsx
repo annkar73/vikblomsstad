@@ -75,7 +75,9 @@ export default function HemstadPage() {
           <div className="about about-copy">
             <h2>Ett hem som känns städat, varje gång</h2>
             <p>Inför varje nytt uppdrag gör vi ett hembesök. Tillsammans går vi igenom vad du vill ha hjälp med och formar din beställning så att städningen passar just ditt hem och din vardag.</p>
-            <p>Som privatperson får du RUT-avdrag på 50% av arbetskostnaden, och vi gör avdraget direkt på fakturan. Under maj till oktober kan du även beställa fönsterputsning.</p>
+            <p className="side-border">Som privatperson kan du få RUT-avdrag på 50% av arbetskostnaden, och vi gör avdraget direkt på fakturan. 
+              <br />
+            Under maj till oktober kan du även beställa fönsterputsning.</p>
             <p className="italic-text">Många av våra kunder väljer en <a href="/services/storstad" className="inline-link">storstädning</a> som komplement till sin hemstädning någon eller några gånger om året.</p>
           </div>
 

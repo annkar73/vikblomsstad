@@ -64,7 +64,9 @@ export default function FlyttstadPage() {
               en hyresvärd, en bostadsrättsförening eller om det är du som kund
               som granskar.
             </p>
-            <p>Om du inte har möjlighet att ta emot ett hembesök ser vi gärna att du skickar bilder av kök, badrum och eventuella trägolv i bostaden så vi vet om vi behöver använda speciella metoder för att ytorna inte ska bli skadade. </p>
+            <p className="side-border">
+              Om du inte har möjlighet att ta emot ett hembesök ser vi gärna att du skickar bilder av kök, badrum och eventuella trägolv i bostaden så vi vet om vi behöver använda speciella metoder för att ytorna inte ska bli skadade.
+            </p>
             <p>
               {" "}
               Vi följer en fast checklista (se nedan) som täcker samtliga rum,
