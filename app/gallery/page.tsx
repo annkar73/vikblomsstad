@@ -55,6 +55,11 @@ const indoorImages = [
     alt: "Nystädat rum",
     caption: "Nystädat rum med blanka golv",
   },
+          {
+    src: "/images/vikblom-stad-hemstad.jpg",
+    alt: "Nystädat rum",
+    caption: "Rent och nystädat för en skön vardag",
+  },
     {
     src: "/images/vikblom-stad-hemstadning-golv-1024x576.jpg",
     alt: "Blanka nystädade golv",
