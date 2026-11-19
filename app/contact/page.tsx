@@ -57,7 +57,8 @@ export default function ContactPage() {
 
         <div className="container hero-bottom">
           <span>VI FINNS NÄRA DIG I ROSLAGEN</span>
-        
+                  <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
+
         </div>
       </section>
 

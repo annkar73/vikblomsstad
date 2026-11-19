@@ -45,6 +45,12 @@ export default function FlyttstadPage() {
             </div>
           </div>
         </div>
+                            <div className="container hero-bottom">
+          <span>VI FINNS NÄRA DIG I ROSLAGEN</span>
+                  <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
+
+        </div>
+
       </section>
 
       {/* Information om tjänsten */}

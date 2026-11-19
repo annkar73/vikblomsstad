@@ -137,6 +137,12 @@ export default function ServicesPage() {
 
           </div>
         </div>
+                            <div className="container hero-bottom">
+          <span>VI FINNS NÄRA DIG I ROSLAGEN</span>
+                  <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
+
+        </div>
+
       </section>
 
       {/* info about services */}

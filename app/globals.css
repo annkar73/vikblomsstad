@@ -735,9 +735,15 @@ p {
   font-size: 14px;
   font-weight: 700;
 }
+.trust-grid h3 {
+  margin: 2px 0 6px;
+  color: var(--navy) !important;
+  font-size: 14px;
+  font-weight: 700;
+}
 
 .trust-grid p {
-  margin: 0;
+  margin: 10px 0 0;
   color: var(--muted);
   font-size: 12px;
   line-height: 1.8;

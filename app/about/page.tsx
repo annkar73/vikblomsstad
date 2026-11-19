@@ -74,6 +74,10 @@ export default function AboutPage() {
         <div className="container hero-bottom">
           <span>ETT RENARE HEM. EN LÄTTARE VARDAG.</span>
           
+          <a href="#trygghet" aria-label="Läs om våra fördelar"></a>
+        
+
+
         </div>
       </section>
 
@@ -174,7 +178,7 @@ export default function AboutPage() {
     <article>
       <span aria-hidden="true">✓</span>
       <div>
-        <h3>Nöjd kund-garanti 24 h</h3>
+        <h3>24 timmar Nöjd kund-garanti</h3>
         <p>Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
       </div>
     </article>
@@ -183,7 +187,7 @@ export default function AboutPage() {
       <span aria-hidden="true">✳</span>
       <div>
         <h3>Allt material ingår</h3>
-        <p>Vi har med oss städmaterial och dammsugare.</p>
+        <p>Vi har med oss allt nödvändigt städmaterial och dammsugare.</p>
       </div>
     </article>
 
