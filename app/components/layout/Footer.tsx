@@ -52,6 +52,7 @@ export default function Footer() {
           <li><a href="/work">Jobba här</a></li>
           <li><a href="/contact">Kontakta oss</a></li>
           <li><a href="/services">Tjänster</a></li>
+          <li><a href="/price">Prislista</a></li>
           <li><a href="/integrity">Integritetspolicy</a></li>
         </ul>
       </div>

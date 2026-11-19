@@ -93,7 +93,7 @@ export default function Header() {
             Galleri
           </Link>
           <Link href="/price" onClick={closeMenu}>
-            Priser
+            Prislista
           </Link>
 
           <Link href="/work" onClick={closeMenu}>
