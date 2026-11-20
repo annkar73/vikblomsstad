@@ -162,7 +162,7 @@ export default function GalleryPage() {
       </div>
 
       <p>
-        Här kan du se några exempel på arbeten som vi har utfört.
+        Här kan du se exempel på några av de arbeten vi har utfört.
         Varje uppdrag är unikt och anpassas efter kundens behov
         och önskemål.
       </p>
