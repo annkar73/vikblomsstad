@@ -319,7 +319,7 @@ export default function FlyttstadPage() {
             </ul>
             <div>
               <br></br>
-              <p className="uppercase-text">
+              <p className="">
                 <strong>
                   Vill du beställa till dessa tjänster tillkommer en extra
                   avgift på 275 kr per tjänst
@@ -368,7 +368,7 @@ export default function FlyttstadPage() {
                   <strong>Ljus/el: </strong> Se till att det finns tillgång till el och ljuskällor. Meddela oss om vi behöver ta med extra lampa.
                 </p>
                 <br></br>
-                <p className="uppercase-text"><strong>
+                <p className=""><strong>
                   Tveka inte att höra av dig om du har några funderingar kring detta.</strong>
                 </p>
               </div>

@@ -365,31 +365,6 @@ export default function Home() {
         </div>
       </section>
       
-      {/* områdespanel */}
-
-      <section className="service-area-section section" id="omrade">
-        <div className="container service-area-panel">
-          <div>
-            <span className="eyebrow">VI FINNS NÄRA DIG</span>
-            <h2>Städning i Norrtälje kommun.</h2>
-          </div>
-          <div>
-            <p>
-              Vikblom Städ utgår från Hallstavik och arbetar i hela Norrtälje
-              kommun, med bland annat:
-            </p>
-            <ul className="area-list">
-              <li>Hallstavik</li>
-              <li>Älmsta</li>
-              <li>Väddö</li>
-              <li>Grisslehamn</li>
-              <li>Singö</li>
-              <li>Skebobruk</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      
       {/* kontaktpanel */}
 
       <section className="contact section" id="kontakt">
