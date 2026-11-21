@@ -14,6 +14,7 @@ const quicksand = Quicksand({
 
 
 
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://vikblomstad.se"),
 
@@ -35,6 +36,18 @@ export const metadata: Metadata = {
     title: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
     description:
       "Personlig städservice i Hallstavik och Norrtälje kommun. Upptäck Vikblom Städs tjänster.",
+    images: [
+      {
+        url: "/images/vikblom-stad-logotyp.png",
+        width: 1080,
+        height: 608,
+        alt: "Vikblom Städ",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
   },
 
   robots: {
@@ -49,6 +62,8 @@ export const metadata: Metadata = {
     },
   },
 };
+
+
 export default function RootLayout({
   children,
 }: LayoutProps<"/">) {
