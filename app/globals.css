@@ -432,6 +432,9 @@ p {
 .hero-gallery .hero-photo {
   background-image: url("/images/emelie-vikblom.jpg");
 }
+.hero-404 .hero-photo {
+  background-image: url("/images/empty-room.jpg");
+}
 
 
 
