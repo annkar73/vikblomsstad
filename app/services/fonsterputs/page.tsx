@@ -129,6 +129,14 @@ export default function FonsterputsPage() {
                 <li>Vi använder stående stegar med arbetsplattform 2 meter, som rekommenderat av Arbetsmiljöverket. Är det högre kan vi tyvärr inte ta oss an uppdraget</li>
               
               </ul>
+                             <a
+                  href="https://www.av.se/produktion-industri-och-logistik/anvandning-av-arbetsutrustning/stegar-och-arbetsbockar/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Läs mer hos <strong>Arbetsmiljöverket</strong>
+                </a>
+
             </article>
           <div className="booking-card service-navy">
             <span className="eyebrow">
