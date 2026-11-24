@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Fönsterputsning i Hallstavik och Roslagen",
+  description:
+    "Vikblom Städ erbjuder fönsterputsning i Hallstavik och Roslagen under maj–oktober. Vi putsar fönster in- och utvändigt samt mellan rutorna. RUT-avdrag direkt på fakturan.",
+  alternates: {
+    canonical: "/services/fonsterputs",
+  },
+};
 
 export default function FonsterputsPage() {
   return (
@@ -23,7 +33,7 @@ export default function FonsterputsPage() {
             </p>
 
             <div className="hero-actions">
-              <Link className="button" href="/kontakta-oss">
+              <Link className="button" href="/contact">
                 Kontakta oss
               </Link>
 

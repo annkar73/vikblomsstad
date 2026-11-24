@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Städtjänster i Hallstavik och Norrtälje",
+  description:
+    "Upptäck Vikblom Städs städtjänster i Hallstavik och Norrtälje kommun. Vi erbjuder hemstädning, storstädning, flyttstädning, byggstädning, fönsterputs och kontors- & arbetsplatsstädning.",
+  alternates: {
+    canonical: "/services",
+  },
+};
 
 export default function ServicesPage() {
     const services = [

@@ -1,5 +1,16 @@
 {/* import Link from "next/link"; */}
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kontakta oss i Hallstavik och Roslagen",
+  description:
+    "Kontakta Vikblom Städ för hemstädning och andra städtjänster i Norrtälje kommun. Ring eller mejla oss för frågor och kostnadsfritt hembesök.",
+  alternates: {
+    canonical: "/contact",
+  },
+};
+
 export default function ContactPage() {
   return (
     <main>
@@ -25,7 +36,7 @@ export default function ContactPage() {
             </p>
 
             <div className="hero-actions">
-              <a className="button" href="#kontaktformular">
+              <a className="button" href="/contact">
                 Skicka en förfrågan
               </a>
 
@@ -223,7 +234,7 @@ export default function ContactPage() {
 
             <p className="form-note">
               Dina uppgifter används för att besvara din förfrågan.
-              Läs vår <Link href="/privacy">integritetspolicy</Link>.
+              Läs vår <Link href="/integrity">integritetspolicy</Link>.
             </p>
           </form>
         </div>

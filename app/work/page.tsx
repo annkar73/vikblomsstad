@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Jobba hos oss i Hallstavik och Norrtälje",
+  description:
+    "Vill du arbeta med städning i Norrtälje kommun? Vikblom Städ söker noggranna och självgående medarbetare och tar gärna emot spontanansökningar.",
+  alternates: {
+    canonical: "/work",
+  },
+};
+
 
 export default function WorkPage() {
   return (

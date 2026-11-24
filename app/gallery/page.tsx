@@ -1,6 +1,16 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import AutoCarousel from "../components/gallery/AutoCarousel";
 import ManualCarousel from "../components/gallery/ManualCarousel";
+
+export const metadata: Metadata = {
+  title: "Bildgalleri – se resultat från våra städuppdrag",
+  description:
+    "Se bilder från Vikblom Städs uppdrag i Hallstavik och Roslagen. Upptäck exempel på hemstädning, flyttstädning, rengöring utomhus och resultat före och efter städning.",
+  alternates: {
+    canonical: "/gallery",
+  },
+};
 
 const outdoorImages = [
   {

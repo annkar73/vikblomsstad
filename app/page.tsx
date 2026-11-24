@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Vikblom Städ | Städtjänster i Hallstavik och Roslagen",
   description:
     "Vikblom Städ erbjuder personlig hemstädning, storstädning och flyttstädning i Hallstavik och Norrtälje kommun. Boka ett kostnadsfritt hembesök.",
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function Home() {
@@ -98,7 +101,12 @@ export default function Home() {
             <span aria-hidden="true">✓</span>
             <div>
               <h2>Nöjd kund-garanti 24 h</h2>
-              <p>Efter utfört uppdrag gör vi en slutbesiktning tillsammans med dig som kund. <br />Blev något inte bra? Hör av dig inom ett dygn så åtgärdar vi det kostnadsfritt.</p>
+              <p>
+                Efter utfört uppdrag gör vi en slutbesiktning tillsammans med
+                dig som kund. <br />
+                Blev något inte bra? Hör av dig inom ett dygn så åtgärdar vi det
+                kostnadsfritt.
+              </p>
             </div>
           </article>
 
@@ -132,14 +140,20 @@ export default function Home() {
 
       <section className="now-area-section section">
         <div className="container now-area-panel">
-            <div>
+          <div>
             <span className="eyebrow">ÖPPETTIDER</span>
           </div>
           <article className="now-area-content">
-            <h3><strong>Måndag - Fredag:</strong> 09.00 - 17.00</h3>
-            <h3><strong>Lördag:</strong> 10.00 - 13.00</h3>
-            <h3><strong>Söndag:</strong> <span className="pink-text uppercase-text">Stängt</span></h3>
-           
+            <h3>
+              <strong>Måndag - Fredag:</strong> 09.00 - 17.00
+            </h3>
+            <h3>
+              <strong>Lördag:</strong> 10.00 - 13.00
+            </h3>
+            <h3>
+              <strong>Söndag:</strong>{" "}
+              <span className="pink-text uppercase-text">Stängt</span>
+            </h3>
           </article>
 
           <div>
@@ -148,15 +162,18 @@ export default function Home() {
           <article className="now-area-content">
             <h3>Fönsterputsning</h3>
             <p>
-              Säsongen för fönsterputsning är avslutad för i år. Men passa istället på att frosta av frysen. Om du vill ha hjälp med detta, hör gärna av dig till oss.
+              Säsongen för fönsterputsning är avslutad för i år. Men passa
+              istället på att frosta av frysen. Om du vill ha hjälp med detta,
+              hör gärna av dig till oss.
             </p>
             <hr></hr>
           </article>
           <article className="now-area-content">
             <h3>Lugn inför julen</h3>
             <p>
-              Passa på att boka hemstädning inför julen, så kan ni ägna er åt andra förberedelser inför firande med familj och vänner. Än finns det några tider kvar att boka inför jul.
-              
+              Passa på att boka hemstädning inför julen, så kan ni ägna er åt
+              andra förberedelser inför firande med familj och vänner. Än finns
+              det några tider kvar att boka inför jul.
             </p>
           </article>
         </div>
@@ -203,7 +220,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* prispanel */}
 
       <section className="pricing-section section" id="priser">
@@ -213,7 +229,10 @@ export default function Home() {
               <div className="section-heading">
                 <div>
                   <span className="eyebrow">PRISER</span>
-                  <h2>Tydliga timpriser <br />RUT redan avdraget</h2>
+                  <h2>
+                    Tydliga timpriser <br />
+                    RUT redan avdraget
+                  </h2>
                 </div>
               </div>
 
@@ -231,7 +250,7 @@ export default function Home() {
                     375 <span>kr/timme</span>
                   </p>
                 </article>
-                
+
                 <article className="price-card price-card-highlight window-price-card">
                   <span className="eyebrow">FÖNSTERPUTS</span>
 
@@ -295,18 +314,18 @@ export default function Home() {
                   </span>
                 </li>
               </ul>
-               <a
-                  href="https://www.skatteverket.se/privat/fastigheterochbostad/rotarbeteochrutarbete/safungerarrutavdraget.4.d5e04db14b6fef2c866097.html"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Läs mer om RUT-avdrag hos <strong>Skatteverket</strong>
-                </a>
+              <a
+                href="https://www.skatteverket.se/privat/fastigheterochbostad/rotarbeteochrutarbete/safungerarrutavdraget.4.d5e04db14b6fef2c866097.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Läs mer om RUT-avdrag hos <strong>Skatteverket</strong>
+              </a>
             </div>
           </div>
         </div>
       </section>
-      
+
       {/* galleripanel */}
 
       <section className="gallery-section section" id="galleri">
@@ -358,13 +377,13 @@ export default function Home() {
             </article>
           </div>
           <div className="gallery-more">
-  <Link href="/gallery" className="button button-outline">
-    Se mer av vårt arbete
-  </Link>
-</div>
+            <Link href="/gallery" className="button button-outline">
+              Se mer av vårt arbete
+            </Link>
+          </div>
         </div>
       </section>
-      
+
       {/* kontaktpanel */}
 
       <section className="contact section" id="kontakt">

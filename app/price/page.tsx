@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Priser på städtjänster i Hallstavik och Roslagen",
+  description:
+    "Se Vikblom Städs priser för hemstädning, företagsstädning, fönsterputs och flyttstädning i Norrtälje kommun. Tydliga priser för privatpersoner och företag.",
+  alternates: {
+    canonical: "/price",
+  },
+};
+
 export default function PricePage() {
   return (
     <main>

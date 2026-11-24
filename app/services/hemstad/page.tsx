@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Hemstädning i Hallstavik och Norrtälje",
+  description:
+    "Vikblom Städ erbjuder hemstädning i Hallstavik och Norrtälje kommun. Välj regelbunden städning eller enstaka tillfällen. Kostnadsfritt hembesök och RUT-avdrag direkt på fakturan.",
+  alternates: {
+    canonical: "/services/hemstad",
+  },
+};
 
 export default function HemstadPage() {
   return (

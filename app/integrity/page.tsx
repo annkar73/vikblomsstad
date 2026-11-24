@@ -1,3 +1,15 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Integritetspolicy",
+  description:
+    "Läs om hur Vikblom Städ AB behandlar, använder och skyddar dina personuppgifter när du kontaktar eller anlitar företaget.",
+  alternates: {
+    canonical: "/integrity",
+  },
+};
+
+
 export default function IntegrityPage() {
   return (
     <main>
@@ -46,7 +58,7 @@ export default function IntegrityPage() {
             <p>
               Vi delar bara uppgifter med Skatteverket (RUT-avdrag), vår
               redovisningsleverantör och, vid större uppdrag med fönsterputs,
-              vår samarbetspartner. Vi säljar aldrig personuppgifter vidare.
+              vår samarbetspartner. Vi säljer aldrig personuppgifter vidare.
             </p>
             <h3>Dina rättigheter</h3>
             <p>

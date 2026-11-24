@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Storstädning i Hallstavik och Roslagen",
+  description:
+    "Behöver du storstädning i Hallstavik eller Norrtälje kommun? Vikblom Städ erbjuder grundlig städning med möjlighet till extra tillval och kostnadsfritt hembesök.",
+  alternates: {
+    canonical: "/services/storstad",
+  },
+};
 
 export default function StorstadPage() {
   return (

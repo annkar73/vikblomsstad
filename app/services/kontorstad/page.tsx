@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Kontorsstädning i Norrtälje och Hallstavik",
+  description:
+    "Vikblom Städ erbjuder kontors- och arbetsplatsstädning i Norrtälje kommun. Vi städar kontor, butiker, receptioner och trapphus samt hjälper till före och efter event. Kostnadsfritt besök och tydligt pris.",
+  alternates: {
+    canonical: "/services/kontorstad",
+  },
+};
 
 export default function KontorstadPage() {
   return (
@@ -23,7 +33,7 @@ export default function KontorstadPage() {
             </p>
 
             <div className="hero-actions">
-              <Link className="button" href="/kontakta-oss">
+              <Link className="button" href="/contact">
                 Kontakta oss
               </Link>
 
@@ -40,7 +50,7 @@ export default function KontorstadPage() {
             <div
               className="hero-photo"
               role="img"
-              aria-label="Bild som illustrerar hemstädning"
+              aria-label="Bild som illustrerar en arbetsplats"
             />
                                     <div className="photo-label">
               <span className="photo-label-icon" aria-hidden="true" />

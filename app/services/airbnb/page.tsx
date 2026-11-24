@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Airbnb-städning i Norrtälje och Hallstavik",
+  description:
+    "Vikblom Städ erbjuder utcheckningsstädning för Airbnb och andra uthyrningsboenden i Norrtälje kommun. Vi städar mellan gästerna och anpassar upplägget efter dina bokningar.",
+  alternates: {
+    canonical: "/services/airbnb",
+  },
+};
 
 export default function AirbnbPage() {
   return (
@@ -40,7 +50,7 @@ export default function AirbnbPage() {
             <div
               className="hero-photo"
               role="img"
-              aria-label="Bild som illustrerar hemstädning"
+              aria-label="Bild som illustrerar städat rum"
             />
                         <div className="photo-label">
               <span className="photo-label-icon" aria-hidden="true" />
@@ -104,11 +114,10 @@ export default function AirbnbPage() {
                 Damning och dammsugning av alla rum
               </li>
               <li><span className="note-check" aria-hidden="true">✓</span>Torkning av golv</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>Kök: diskho, spis, ytor och vitvaror utvändigt</li>
+              <li><span className="note-check" aria-hidden="true">✓</span>Kök: diskho, spis, ytor och vitvaror utvändigt, avkalkning och putsning av krom</li>
               <li><span className="note-check" aria-hidden="true">✓</span>Badrum: avkalkning, putsning av krom, handfat och toalett</li>
               <li><span className="note-check" aria-hidden="true">✓</span>Sophantering</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>Rengöring i kök och badrum. Avkalkning och putsning av allt krom</li>
-              <li><span className="note-check" aria-hidden="true">✓</span>Bäddning och byta av handdukar efter överenskommelse</li>
+              <li><span className="note-check" aria-hidden="true">✓</span>Bäddning och byte av handdukar efter överenskommelse</li>
              </ul>
               
             </article>

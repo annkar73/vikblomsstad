@@ -1,4 +1,15 @@
 import Link from "next/link";
+import type {Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Flyttstädning i Norrtälje och Hallstavik",
+  description:
+    "Vikblom Städ erbjuder flyttstädning i Norrtälje kommun med fast pris, kostnadsfritt hembesök och 50 % RUT-avdrag på arbetskostnaden. Vi följer en checklista och erbjuder nöjd kund-garanti.",
+  alternates: {
+    canonical: "/services/flyttstad",
+  },
+};
+
 
 export default function FlyttstadPage() {
   return (
@@ -222,12 +233,7 @@ export default function FlyttstadPage() {
                   </span>
                   Dammsugning och våttorkning av golv
                 </li>
-                <li>
-                  <span className="note-check" aria-hidden="true">
-                    ✓
-                  </span>
-                  Dammsugning och våttorkning av golv
-                </li>
+                
               </ul>
             </article>
 

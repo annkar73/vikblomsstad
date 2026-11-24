@@ -1,4 +1,14 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Om Vikblom Städ – ett lokalt städföretag i Roslagen",
+  description:
+    "Lär känna Vikblom Städ AB i Hallstavik. Läs om Emelie, företagets historia, arbetssätt och personliga städservice i Norrtälje kommun och Roslagen.",
+  alternates: {
+    canonical: "/about",
+  },
+};
 
 export default function AboutPage() {
   return (
@@ -19,7 +29,7 @@ export default function AboutPage() {
             </h1>
 
             <p className="hero-description">
-              Ett litet städföretag medutgångspunkt i
+              Ett litet städföretag med utgångspunkt i
               Hallstavik, som fokuserar på att förbättra både hem- och arbetsplatsmiljöer. Vi strävar efter att göra varje städuppdrag till en personlig och givande upplevelse. 
             </p>
 

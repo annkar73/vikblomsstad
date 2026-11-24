@@ -1,5 +1,15 @@
 
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Byggstädning i Norrtälje och Hallstavik",
+  description:
+    "Vikblom Städ erbjuder professionell byggstädning i Norrtälje kommun. Vi avlägsnar byggdamm efter renovering och nybyggnation. Kostnadsfritt besök och fast pris.",
+  alternates: {
+    canonical: "/services/byggstad",
+  },
+};
 
 export default function ByggstadPage() {
   return (
@@ -23,7 +33,7 @@ export default function ByggstadPage() {
             </p>
 
             <div className="hero-actions">
-              <Link className="button" href="/kontakta-oss">
+              <Link className="button" href="/contact">
                 Kontakta oss
               </Link>
 
@@ -40,7 +50,7 @@ export default function ByggstadPage() {
             <div
               className="hero-photo"
               role="img"
-              aria-label="Bild som illustrerar hemstädning"
+              aria-label="Bild som illustrerar byggstädning"
             />
                                     <div className="photo-label">
               <span className="photo-label-icon" aria-hidden="true" />
